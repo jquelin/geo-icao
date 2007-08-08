@@ -1,0 +1,74 @@
+#!/usr/bin/env perl
+#
+# This file is part of Geo::ICAO
+# Copyright (c) 2007 Jerome Quelin, all rights reserved.
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the same terms as Perl itself.
+#
+#
+
+use strict;
+use warnings;
+
+use Readonly;
+
+# fetch data from wikipedia
+Readonly my $URL => 'http://en.wikipedia.org/wiki/ICAO_airport_code';
+my @lines = qx[ lynx -dump -nolist -width=130 $URL ];
+
+# parse data and extract country codes
+print q{Readonly my %CODE2COUNTRY => (} . "\n";
+foreach my $line ( @lines ) {
+    next unless $line =~ /\A \s* Prefix \s+ code \s+ Country \s* \z/x
+             .. $line =~ /\A \s* \z/x;                          # trash everything but the table
+    next unless $line =~ /\A \s+ ([A-Z]{1,2}) \s+ ([A-Z].*)/x;  # keep only countries
+
+    # capture strings
+    my ($code,$country) = ($1,$2);
+    $country =~ s/ \(also [^)]+\)//;
+    $country =~ s/ \(except [^)]+\)//;
+    $country =~ s/, including .*//;
+
+    printf "    %-2s => q{$country},\n", $code;
+}
+print qq{);\n};
+
+exit;
+
+__END__
+
+=head1 NAME
+
+get_code2country - fetch ICAO country code from wikipedia
+
+
+=head1 SYNOPSIS
+
+    get_code2country >countries.pl
+
+
+=head1 DESCRIPTION
+
+A comprehensive list of ICAO country codes s described on
+L<http://en.wikipedia.org/wiki/ICAO_airport_code>. C<get_code2country> is a
+small script that will fetch and parse this url, to extract this list of
+country codes. It will then dump them as Perl code, to be inserted directly in
+Geo::ICAO.
+
+
+=head1 AUTHOR
+
+Jerome Quelin, C<< <jquelin at cpan.org> >>
+
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright (c) 2007 Jerome Quelin, all rights reserved.
+
+This program is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+
+=cut
+
