@@ -281,6 +281,13 @@ Readonly my %CODE2COUNTRY => (
 Readonly my %REGION2CODE  => reverse %CODE2REGION;
 
 
+#--
+#
+
+sub all_region_codes { return keys   %CODE2REGION; }
+sub all_region_names { return values %CODE2REGION; }
+
+
 1;
 __END__
 
@@ -295,6 +302,9 @@ Geo::ICAO - Airport and ICAO codes lookup
     use Geo::ICAO;
     ...
 
+    my @region_codes = all_region_codes();
+    my @region_names = all_region_names();
+
 
 
 =head1 EXPORT
@@ -306,7 +316,26 @@ if you don't export anything, such as for a purely object-oriented module.
 
 =head1 FUNCTIONS
 
-=head2 function1
+=head2 Regions
+
+The first letter of an ICAO code refer to the region of the airport. The
+region is quite loosely defined as per the ICAO. This set of functions
+allow retrieval and digging of the regions.
+
+
+=over 4
+
+=item . all_region_codes( )
+
+Return the list of all single letters defining an ICAO region. No
+parameters needed.
+
+
+=item . all_region_names( )
+
+Return the list of all ICAO region names. No parameters needed.
+
+=back
 
 
 
