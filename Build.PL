@@ -20,11 +20,13 @@ my $builder = Module::Build->new (
     add_to_cleanup => [
         'Geo-ICAO-*', 'MANIFEST.bak',
         map { ( '*/' x $_ ) . '*~' } 0..4 ],
-    script_files => [ ],
+    script_files   => [ ],
     build_requires => {
-        'Test::More'  => 0,
+        'Test::More' => 0,
     },
-    requires => { },
+    requires       => { 
+        'Readonly'  => 0,
+    },
 );
 
 $builder->create_build_script();
