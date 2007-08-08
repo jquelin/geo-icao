@@ -45,7 +45,11 @@ get_code2country - fetch ICAO country code from wikipedia
 
 =head1 SYNOPSIS
 
-    get_code2country >countries.pl
+    using vi to update Geo::ICAO...
+    $ vi lib/Geo/ICAO.pm
+        /CODE2COUNTRY
+        0d}
+        :r!scripts/get_code2country
 
 
 =head1 DESCRIPTION
