@@ -11,8 +11,37 @@ package Geo::ICAO;
 use warnings;
 use strict;
 
+use Readonly;
 
 our $VERSION = '0.01';
+
+Readonly my %CODE2REGION => (
+    A => 'Western South Pacific',
+    B => 'Iceland/Greenland',
+    C => 'Canada',
+    D => 'West Africa',
+    E => 'Northern Europe',
+    F => 'Southern Africa',
+    G => 'Northwestern Africa',
+    H => 'Northeastern Africa',
+    K => 'USA',
+    L => 'Southern Europe and Israel',
+    M => 'Central America',
+    N => 'South Pacific',
+    O => 'Southwest Asia, Afghanistan and Pakistan',
+    P => 'Eastern North Pacific',
+    R => 'Western North Pacific',
+    S => 'South America',
+    T => 'Caribbean',
+    U => 'Russia and former Soviet States',
+    V => 'South Asia and mainland Southeast Asia',
+    W => 'Maritime Southeast Asia (except the Philippines)',
+    Y => 'Australia',
+    Z => 'China, Mongolia and North Korea',
+);
+
+#
+Readonly my %REGION2CODE  => reverse %CODE2REGION;
 
 
 1;
