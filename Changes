@@ -1,5 +1,16 @@
 Revision history for Geo-ICAO
 
-0.01    Date/time
-        First version, released on an unsuspecting world.
+High-level changelog
+====================
+
+0.0x  initial releases
+
+
+Low-level changelog
+===================
+
+0.01 Wed Aug  8 19:13:52 CEST 2007
+ - initial release
+ - region & countries definition
+ - all_region_names() / all_region_codes()
 
