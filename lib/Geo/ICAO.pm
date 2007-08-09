@@ -13,7 +13,7 @@ use strict;
 
 use Readonly;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 Readonly my %CODE2REGION => (
     A => 'Western South Pacific',

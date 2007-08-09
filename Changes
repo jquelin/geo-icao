@@ -9,6 +9,10 @@ High-level changelog
 Low-level changelog
 ===================
 
+0.02
+ - protect country codes to quiet perl 5.6 warnings
+
+
 0.01 Wed Aug  8 19:13:52 CEST 2007
  - initial release
  - region & countries definition
