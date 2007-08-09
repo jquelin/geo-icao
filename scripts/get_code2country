@@ -30,7 +30,7 @@ foreach my $line ( @lines ) {
     $country =~ s/ \(except [^)]+\)//;
     $country =~ s/, including .*//;
 
-    printf "    %-2s => q{$country},\n", $code;
+    printf "    '%-2s' => q{$country},\n", $code;
 }
 print qq{);\n};
 
