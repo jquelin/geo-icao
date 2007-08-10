@@ -12,7 +12,7 @@ use strict;
 use warnings;
 
 use Geo::ICAO qw[ :country ];
-use Test::More tests => 3;
+use Test::More tests => 4;
 
 
 # all_country_names()
