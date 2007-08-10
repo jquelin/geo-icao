@@ -24,7 +24,7 @@ use Test::More tests => 3;
 my @codes = all_country_codes();
 my %length = (); $length{ length $_ }++ foreach @codes;
 is( scalar @codes, 234, 'all_country_codes() returns 22 codes' );
-is( $length{1},    5,   'all_country_codes() returns 6 countries with 1-letter code' );
+is( $length{1},    5,   'all_country_codes() returns 5 countries with 1-letter code' );
 is( $length{2},    229, 'all_country_codes() returns countries with 2-letters codes' );
 
 
