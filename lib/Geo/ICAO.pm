@@ -347,6 +347,9 @@ Geo::ICAO - Airport and ICAO codes lookup
     my $code   = region2code('Canada');
     my $region = code2region('K');
 
+    my @country_codes = all_country_codes();
+    my @country_names = all_country_names();
+
 
 
 =head1 EXPORT
