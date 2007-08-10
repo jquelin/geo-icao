@@ -11,7 +11,7 @@ package Geo::ICAO;
 use warnings;
 use strict;
 
-our $VERSION = '0.11';
+our $VERSION = '0.20';
 
 # exporting.
 use base qw[ Exporter ];

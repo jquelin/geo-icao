@@ -3,12 +3,18 @@ Revision history for Geo-ICAO
 High-level changelog
 ====================
 
+0.2x  country development
 0.1x  region development
 0.0x  initial releases & infrastructure
 
 
 Low-level changelog
 ===================
+
+0.20
+ - new subs all_country_codes(), all_country_names()
+
+**
 
 0.12 Fri Aug 10 15:24:18 CEST 2007
  - fixed bug in region2code: wrong hash used
