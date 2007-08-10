@@ -10,6 +10,10 @@ High-level changelog
 Low-level changelog
 ===================
 
+0.12 Fri Aug 10 15:24:18 CEST 2007
+ - fixed bug in region2code: wrong hash used
+ - added tests for region
+
 0.11 Fri Aug 10 14:38:30 CEST 2007
  - cleaned "Maritime Southeast Asia" name
  - new subs region2code(), code2region()
