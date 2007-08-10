@@ -24,11 +24,9 @@ our (@EXPORT_OK, %EXPORT_TAGS);
 }
 
 
-use Readonly;
-
 our $VERSION = '0.02';
 
-Readonly my %CODE2REGION => (
+my %code2region = (
     A => 'Western South Pacific',
     B => 'Iceland/Greenland',
     C => 'Canada',
@@ -54,7 +52,7 @@ Readonly my %CODE2REGION => (
 );
 
 
-Readonly my %CODE2COUNTRY => (
+my %code2country = (
     'AG' => q{Solomon Islands},
     'AN' => q{Nauru},
     'AY' => q{Papua New Guinea},
@@ -292,14 +290,14 @@ Readonly my %CODE2COUNTRY => (
 );
 
 #
-Readonly my %REGION2CODE  => reverse %CODE2REGION;
+my %region2code = reverse %code2region;
 
 
 #--
 #
 
-sub all_region_codes { return keys   %CODE2REGION; }
-sub all_region_names { return values %CODE2REGION; }
+sub all_region_codes { return keys   %code2region; }
+sub all_region_names { return values %code2region; }
 
 
 1;
