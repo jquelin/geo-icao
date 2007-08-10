@@ -15,7 +15,7 @@ use strict;
 use base qw[ Exporter ];
 our (@EXPORT_OK, %EXPORT_TAGS);
 {
-    my @regions = qw[ all_region_codes all_region_names ];
+    my @regions = qw[ all_region_codes all_region_names region2code ];
     @EXPORT_OK = (@regions);
     %EXPORT_TAGS = (
         region => \@regions,
@@ -298,6 +298,7 @@ my %region2code = reverse %code2region;
 
 sub all_region_codes { return keys   %code2region; }
 sub all_region_names { return values %code2region; }
+sub region2code { return $region2code{$_[0]}; }
 
 
 1;
@@ -351,6 +352,11 @@ parameters needed.
 =item . all_region_names( )
 
 Return the list of all ICAO region names. No parameters needed.
+
+
+=item . my $code = region2code( $region )
+
+Return the one-letter ICAO C<$code> corresponding to C<$region>.
 
 =back
 
