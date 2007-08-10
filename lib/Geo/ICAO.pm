@@ -365,7 +365,8 @@ Return the list of all ICAO region names. No parameters needed.
 
 =item . my $code = region2code( $region )
 
-Return the one-letter ICAO C<$code> corresponding to C<$region>.
+Return the one-letter ICAO C<$code> corresponding to C<$region>. If the
+region does not exist, return undef.
 
 
 =item . my $region = code2region( $code )
