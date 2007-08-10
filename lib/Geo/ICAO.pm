@@ -11,6 +11,8 @@ package Geo::ICAO;
 use warnings;
 use strict;
 
+our $VERSION = '0.10';
+
 # exporting.
 use base qw[ Exporter ];
 our (@EXPORT_OK, %EXPORT_TAGS);
@@ -24,8 +26,10 @@ our (@EXPORT_OK, %EXPORT_TAGS);
 }
 
 
-our $VERSION = '0.10';
+#--
+# private module vars.
 
+# list of ICAO codes for the regions with their name.
 my %code2region = (
     A => 'Western South Pacific',
     B => 'Iceland/Greenland',
@@ -51,7 +55,7 @@ my %code2region = (
     Z => 'China, Mongolia and North Korea',
 );
 
-
+# list of ICAO codes for the countries with their name.
 my %code2country = (
     'AG' => q{Solomon Islands},
     'AN' => q{Nauru},
@@ -289,12 +293,12 @@ my %code2country = (
     'ZM' => q{Mongolia},
 );
 
-#
+# compute list of region names with their ICAO code.
 my %region2code = reverse %code2region;
 
 
 #--
-#
+# subs handling regions.
 
 sub all_region_codes { return keys   %code2region; }
 sub all_region_names { return values %code2region; }
