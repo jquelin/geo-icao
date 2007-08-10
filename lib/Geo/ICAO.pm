@@ -321,11 +321,12 @@ Geo::ICAO - Airport and ICAO codes lookup
 
 =head1 SYNOPSIS
 
-    use Geo::ICAO;
-    ...
+    use Geo::ICAO qw[ :all ];
 
     my @region_codes = all_region_codes();
     my @region_names = all_region_names();
+    my $code   = region2code('Canada');
+    my $region = code2region('K');
 
 
 
@@ -352,15 +353,15 @@ Note: you can import all those functions with the C<:region> keyword.
 
 =over 4
 
-=item . all_region_codes( )
+=item . my @codes = all_region_codes()
 
 Return the list of all single letters defining an ICAO region. No
-parameters needed.
+parameter needed.
 
 
-=item . all_region_names( )
+=item . my regions = all_region_names()
 
-Return the list of all ICAO region names. No parameters needed.
+Return the list of all ICAO region names. No parameter needed.
 
 
 =item . my $code = region2code( $region )
