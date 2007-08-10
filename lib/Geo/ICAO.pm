@@ -17,7 +17,8 @@ our $VERSION = '0.11';
 use base qw[ Exporter ];
 our (@EXPORT_OK, %EXPORT_TAGS);
 {
-    my @regions = qw[ all_region_codes all_region_names region2code code2region ];
+    my @regions   = qw[ all_region_codes all_region_names region2code code2region ];
+    my @countries = qw[ ];
     @EXPORT_OK = (@regions);
     %EXPORT_TAGS = (
         region => \@regions,
@@ -310,6 +311,11 @@ sub code2region {
 }
 
 
+#--
+# subs handling countries.
+
+
+
 1;
 __END__
 
@@ -380,6 +386,22 @@ returned.
 Return undef if the associated region doesn't exist.
 
 =back
+
+
+
+=head2 Countries
+
+The first two letters of an ICAO code refer to the country of the
+airport. Once again, the rules are not really set in stone: some codes
+are shared by more than one country, some countries are defined more
+than once... and some countries (Canada, USA, Russia, Australia and
+China) are even coded on only one letter - ie, the country is the same
+as the region). This set of functions allow retrieval and digging of the
+countries.
+
+Note: you can import all those functions with the C<:country> keyword.
+
+
 
 
 
