@@ -11,9 +11,9 @@
 use strict;
 use warnings;
 
+use Geo::ICAO qw[ :region ];
 use Test::More tests => 8;
 
-use Geo::ICAO qw[ :region ];
 
 # all_region_names()
 my @names = all_region_names();
