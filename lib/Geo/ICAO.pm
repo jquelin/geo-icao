@@ -46,7 +46,7 @@ my %code2region = (
     T => 'Caribbean',
     U => 'Russia and former Soviet States',
     V => 'South Asia and mainland Southeast Asia',
-    W => 'Maritime Southeast Asia (except the Philippines)',
+    W => 'Maritime Southeast Asia',
     Y => 'Australia',
     Z => 'China, Mongolia and North Korea',
 );
