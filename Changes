@@ -3,21 +3,23 @@ Revision history for Geo-ICAO
 High-level changelog
 ====================
 
-0.1x  stable infrastructure, development can go on
-0.0x  initial releases
+0.1x  region development
+0.0x  initial releases & infrastructure
 
 
 Low-level changelog
 ===================
 
-0.11
+0.11 Fri Aug 10 14:38:30 CEST 2007
  - cleaned "Maritime Southeast Asia" name
- - 
+ - new subs region2code(), code2region()
 
 0.10 Fri Aug 10 10:26:05 CEST 2007
  - export is in place
  - dropped prereq Readonly (since hashes are less easy to handle with perl 5.6)
  - new test for kwalitee
+
+**
 
 0.02 Thu Aug  9 14:23:19 CEST 2007
  - protect country codes to quiet perl 5.6 warnings
