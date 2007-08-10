@@ -31,6 +31,8 @@ our (@EXPORT_OK, %EXPORT_TAGS);
 #--
 # private module vars.
 
+# - vars defined statically
+
 # list of ICAO codes for the regions with their name.
 my %code2region = (
     A => 'Western South Pacific',
@@ -295,8 +297,16 @@ my %code2country = (
     'ZM' => q{Mongolia},
 );
 
-# compute list of region names with their ICAO code.
+# - vars computed after other vars
+
 my %region2code = reverse %code2region;
+my %country2code;
+{ # need to loop, since some countries have more than one code.
+    foreach my $code ( keys %code2country ) {
+        my $country = $code2country{$code};
+        push @{ $country2code{$country} }, $code;
+    }
+}
 
 
 #--
