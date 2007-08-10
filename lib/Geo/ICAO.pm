@@ -378,7 +378,7 @@ Return the list of all single letters defining an ICAO region. No
 parameter needed.
 
 
-=item . my regions = all_region_names()
+=item . my @regions = all_region_names()
 
 Return the list of all ICAO region names. No parameter needed.
 
@@ -421,6 +421,11 @@ Note: you can import all those functions with the C<:country> keyword.
 
 Return the list of all single- or double-letters defining an ICAO
 country. No parameter needed.
+
+
+=item . my @countries = all_country_names()
+
+Return the list of all ICAO country names. No parameter needed.
 
 =back
 
