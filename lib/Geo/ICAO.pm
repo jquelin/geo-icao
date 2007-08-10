@@ -303,6 +303,11 @@ my %region2code = reverse %code2region;
 sub all_region_codes { return keys %code2region; }
 sub all_region_names { return keys %region2code; }
 sub region2code { return $region2code{$_[0]}; }
+sub code2region {
+    my ($code) = @_;
+    my $letter = substr $code, 0, 1; # can be called with an airport code
+    return $region2code{$letter};
+}
 
 
 1;
@@ -361,6 +366,16 @@ Return the list of all ICAO region names. No parameters needed.
 =item . my $code = region2code( $region )
 
 Return the one-letter ICAO C<$code> corresponding to C<$region>.
+
+
+=item . my $region = code2region( $code )
+
+Return the ICAO C<$region> corresponding to C<$code>. Note that C<$code>
+can be a one-letter code (region), two-letters code (country) or a
+four-letters code (airport): in either case, the region will be
+returned.
+
+Return undef if the associated region doesn't exist.
 
 =back
 
