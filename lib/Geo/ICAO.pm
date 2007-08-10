@@ -18,7 +18,7 @@ use base qw[ Exporter ];
 our (@EXPORT_OK, %EXPORT_TAGS);
 {
     my @regions   = qw[ all_region_codes all_region_names region2code code2region ];
-    my @countries = qw[ all_country_codes ];
+    my @countries = qw[ all_country_codes all_country_names ];
     @EXPORT_OK = (@regions, @countries);
     %EXPORT_TAGS = (
         region  => \@regions,
@@ -326,6 +326,7 @@ sub code2region {
 # subs handling countries.
 
 sub all_country_codes { return keys %code2country; }
+sub all_country_names { return keys %country2code; }
 
 
 1;
