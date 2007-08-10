@@ -11,7 +11,7 @@ package Geo::ICAO;
 use warnings;
 use strict;
 
-our $VERSION = '0.12';
+our $VERSION = '0.11';
 
 # exporting.
 use base qw[ Exporter ];
@@ -19,10 +19,11 @@ our (@EXPORT_OK, %EXPORT_TAGS);
 {
     my @regions   = qw[ all_region_codes all_region_names region2code code2region ];
     my @countries = qw[ ];
-    @EXPORT_OK = (@regions);
+    @EXPORT_OK = (@regions, @countries);
     %EXPORT_TAGS = (
-        region => \@regions,
-        all => [ @regions ],
+        region  => \@regions,
+        country => \@countries,
+        all     => \@EXPORT_OK,
     );
 }
 
