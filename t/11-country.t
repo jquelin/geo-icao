@@ -16,14 +16,16 @@ use Test::More tests => 3;
 
 
 # all_country_names()
-#my @names = all_country_names();
-#is( scalar @names, 22, 'all_country_names() returns 22 names' );
+my @names = all_country_names();
+is( scalar @names, 226, 'all_country_names() returns 226 names' );
+# Brazil=5, Indonesia=4, Djibouti=2
+# ==> 4+3+1=8 names not counted
 
 
 # all_country_codes()
 my @codes = all_country_codes();
 my %length = (); $length{ length $_ }++ foreach @codes;
-is( scalar @codes, 234, 'all_country_codes() returns 22 codes' );
+is( scalar @codes, 234, 'all_country_codes() returns 234 codes' );
 is( $length{1},    5,   'all_country_codes() returns 5 countries with 1-letter code' );
 is( $length{2},    229, 'all_country_codes() returns countries with 2-letters codes' );
 
