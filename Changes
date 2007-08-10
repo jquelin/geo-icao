@@ -9,9 +9,13 @@ High-level changelog
 Low-level changelog
 ===================
 
-0.02
- - protect country codes to quiet perl 5.6 warnings
+0.10 Fri Aug 10 10:26:05 CEST 2007
+ - export is in place
+ - dropped prereq Readonly (since hashes are less easy to handle with perl 5.6)
+ - new test for kwalitee
 
+0.02 Thu Aug  9 14:23:19 CEST 2007
+ - protect country codes to quiet perl 5.6 warnings
 
 0.01 Wed Aug  8 19:13:52 CEST 2007
  - initial release

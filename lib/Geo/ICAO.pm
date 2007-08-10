@@ -24,7 +24,7 @@ our (@EXPORT_OK, %EXPORT_TAGS);
 }
 
 
-our $VERSION = '0.02';
+our $VERSION = '0.10';
 
 my %code2region = (
     A => 'Western South Pacific',

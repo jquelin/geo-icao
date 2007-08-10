@@ -1,20 +1,18 @@
 ---
 name: Geo-ICAO
-version: 0.02
+version: 0.10
 author:
   - 'Jerome Quelin <jquelin@cpan.org>'
 abstract: Airport and ICAO codes lookup
 license: perl
 resources:
   license: http://dev.perl.org/licenses/
-requires:
-  Readonly: 0
 build_requires:
   Test::More: 0
 provides:
   Geo::ICAO:
     file: lib/Geo/ICAO.pm
-    version: 0.02
+    version: 0.10
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
