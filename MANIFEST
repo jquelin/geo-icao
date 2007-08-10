@@ -12,3 +12,4 @@ t/01-pod.t
 t/02-pod-coverage.t
 t/03-kwalitee.t
 t/10-region.t
+t/11-country.t
