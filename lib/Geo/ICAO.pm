@@ -17,7 +17,7 @@ our $VERSION = '0.10';
 use base qw[ Exporter ];
 our (@EXPORT_OK, %EXPORT_TAGS);
 {
-    my @regions = qw[ all_region_codes all_region_names region2code ];
+    my @regions = qw[ all_region_codes all_region_names region2code code2region ];
     @EXPORT_OK = (@regions);
     %EXPORT_TAGS = (
         region => \@regions,
