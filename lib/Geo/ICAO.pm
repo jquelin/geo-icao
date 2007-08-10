@@ -18,7 +18,7 @@ use base qw[ Exporter ];
 our (@EXPORT_OK, %EXPORT_TAGS);
 {
     my @regions   = qw[ all_region_codes all_region_names region2code code2region ];
-    my @countries = qw[ ];
+    my @countries = qw[ all_country_codes ];
     @EXPORT_OK = (@regions, @countries);
     %EXPORT_TAGS = (
         region  => \@regions,
@@ -315,6 +315,7 @@ sub code2region {
 #--
 # subs handling countries.
 
+sub all_country_codes { return keys %code2country; }
 
 
 1;
@@ -403,6 +404,14 @@ countries.
 Note: you can import all those functions with the C<:country> keyword.
 
 
+=over 4
+
+=item . my @codes = all_country_codes()
+
+Return the list of all single- or double-letters defining an ICAO
+country. No parameter needed.
+
+=back
 
 
 
