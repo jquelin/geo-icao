@@ -19,7 +19,6 @@ WriteMakefile(
     ABSTRACT_FROM       => 'lib/Geo/ICAO.pm',
     PL_FILES            => {},
     PREREQ_PM => {
-        'Readonly'   => 0,
         'Test::More' => 0,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },

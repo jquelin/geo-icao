@@ -25,7 +25,6 @@ my $builder = Module::Build->new (
         'Test::More' => 0,
     },
     requires       => { 
-        'Readonly'  => 0,
     },
 );
 
