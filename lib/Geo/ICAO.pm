@@ -300,8 +300,8 @@ my %region2code = reverse %code2region;
 #--
 # subs handling regions.
 
-sub all_region_codes { return keys   %code2region; }
-sub all_region_names { return values %code2region; }
+sub all_region_codes { return keys %code2region; }
+sub all_region_names { return keys %region2code; }
 sub region2code { return $region2code{$_[0]}; }
 
 

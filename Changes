@@ -3,11 +3,16 @@ Revision history for Geo-ICAO
 High-level changelog
 ====================
 
+0.1x  stable infrastructure, development can go on
 0.0x  initial releases
 
 
 Low-level changelog
 ===================
+
+0.11
+ - cleaned "Maritime Southeast Asia" name
+ - 
 
 0.10 Fri Aug 10 10:26:05 CEST 2007
  - export is in place
