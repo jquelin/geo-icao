@@ -307,7 +307,7 @@ sub region2code { return $region2code{$_[0]}; }
 sub code2region {
     my ($code) = @_;
     my $letter = substr $code, 0, 1; # can be called with an airport code
-    return $region2code{$letter};
+    return $code2region{$letter};
 }
 
 
