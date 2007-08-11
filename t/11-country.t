@@ -12,7 +12,7 @@ use strict;
 use warnings;
 
 use Geo::ICAO qw[ :country ];
-use Test::More tests => 8;
+use Test::More tests => 15;
 
 
 #--
@@ -50,9 +50,18 @@ like( $@, qr/^'I' is not a valid region code/,
 #is( code2country('I'),    undef, 'code2country() with unknown code' );
 
 
+#--
 # country2code()
-#is( country2code('Canada'),  'C',   'basic country2code() usage' );
-#is( country2code('Unknown'), undef, 'country2code() with unknown name' );
+@codes = country2code('France');
+is( scalar @codes, 1,    'country2code() basic usage' );
+is( $codes[0],     'LF', 'country2code() basic usage' );
+@codes = country2code('Canada');
+is( scalar @codes, 1,   'country2code() - single-letter usage' );
+is( $codes[0],     'C', 'country2code() - single-letter usage' );
+@codes = sort(country2code('Brazil'));
+is( scalar @codes, 5,    'country2code() - multiple-codes usage' );
+is( $codes[0],     'SB', 'country2code() - multiple-codes usage' );
+is( country2code('Unknown'), undef, 'country2code() - unknown name' );
 
 
 exit;
