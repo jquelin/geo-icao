@@ -473,6 +473,15 @@ Return the list of ICAO codes corresponding to C<$country>. It's a list
 since some countries have more than one code. Note that the codes can be
 single-letters (USA, etc.)
 
+
+=item . my $country = code2country( $code )
+
+Return the ICAO C<$country> corresponding to C<$code>. Note that
+C<$code> can be a classic country code, or a four-letters code
+(airport): in either case, the region will be returned.
+
+Return undef if the associated region doesn't exist.
+
 =back
 
 
