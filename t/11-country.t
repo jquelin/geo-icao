@@ -62,8 +62,7 @@ is( $codes[0],     'LF', 'country2code() basic usage' );
 @codes = country2code('Canada');
 is( scalar @codes, 1,    'country2code() - single-letter usage' );
 is( $codes[0],     'C',  'country2code() - single-letter usage' );
-@codes = country2code('Brazil');
-@codes = sort @codes; # done in 2 times to please perl 5.6
+@codes = sort( +country2code('Brazil') ); # '+' desambiguates perl56 parsing
 is( scalar @codes, 5,    'country2code() - multiple-codes usage' );
 is( $codes[0],     'SB', 'country2code() - multiple-codes usage' );
 is( country2code('Unknown'), undef, 'country2code() - unknown name' );
