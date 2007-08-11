@@ -11,6 +11,9 @@ package Geo::ICAO;
 use warnings;
 use strict;
 
+use Carp;
+use List::Util qw[ first ];
+
 our $VERSION = '0.20';
 
 # exporting.
@@ -325,8 +328,24 @@ sub code2region {
 #--
 # subs handling countries.
 
-sub all_country_codes { return keys %code2country; }
-sub all_country_names { return keys %country2code; }
+sub all_country_codes {
+    my ($code) = @_;
+
+    return keys %code2country unless defined $code; # no filters
+    croak "'$code' is not a valid region code" unless defined code2region($code);
+    return grep { /^$code/ } keys %code2country;    # filtering
+}
+sub all_country_names {
+    my ($code) = @_;
+
+    return keys %country2code unless defined $code; # no filters
+    croak "'$code' is not a valid region code" unless defined code2region($code);
+
+    # %country2code holds array refs. but even if a country has more
+    # than one code assigned, they will be in the same region: we just
+    # need to test the first code.
+    return grep { $country2code{$_}[0] =~ /^$code/ } keys %country2code;
+}
 
 
 1;
