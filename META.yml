@@ -1,6 +1,6 @@
 ---
 name: Geo-ICAO
-version: 0.22
+version: 0.23
 author:
   - 'Jerome Quelin <jquelin@cpan.org>'
 abstract: Airport and ICAO codes lookup
@@ -12,7 +12,7 @@ build_requires:
 provides:
   Geo::ICAO:
     file: lib/Geo/ICAO.pm
-    version: 0.22
+    version: 0.23
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
