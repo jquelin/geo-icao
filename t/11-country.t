@@ -12,7 +12,7 @@ use strict;
 use warnings;
 
 use Geo::ICAO qw[ :country ];
-use Test::More tests => 15;
+use Test::More tests => 22;
 
 
 #--
@@ -43,11 +43,14 @@ like( $@, qr/^'I' is not a valid region code/,
       'all_country_names() - limiting to a non-existent region' );
 
 
-
 # code2country()
-#is( code2country('K'),    'USA', 'basic code2country() usage' );
-#is( code2country('KJFK'), 'USA', 'code2country() with an airport code' );
-#is( code2country('I'),    undef, 'code2country() with unknown code' );
+is( code2country('LF'),   'France', 'code2country() basic usage' );
+is( code2country('K'),    'USA',    'code2country() - one-letter usage' );
+is( code2country('LFLY'), 'France', 'code2country() - airport code' );
+is( code2country('KJFK'), 'USA',    'code2country() - airport code + one-letter' );
+is( code2country('IIII'), undef,    'code2country() - airport code + unknown code' );
+is( code2country('II'),   undef,    'code2country() - unknown code' );
+is( code2country('I'),    undef,    'code2country() - unknown code + one-letter' );
 
 
 #--
