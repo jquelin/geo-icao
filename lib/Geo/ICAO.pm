@@ -21,7 +21,7 @@ use base qw[ Exporter ];
 our (@EXPORT_OK, %EXPORT_TAGS);
 {
     my @regions   = qw[ all_region_codes all_region_names region2code code2region ];
-    my @countries = qw[ all_country_codes all_country_names ];
+    my @countries = qw[ all_country_codes all_country_names country2code ];
     @EXPORT_OK = (@regions, @countries);
     %EXPORT_TAGS = (
         region  => \@regions,
@@ -335,6 +335,7 @@ sub all_country_codes {
     croak "'$code' is not a valid region code" unless defined code2region($code);
     return grep { /^$code/ } keys %code2country;    # filtering
 }
+
 sub all_country_names {
     my ($code) = @_;
 
@@ -345,6 +346,12 @@ sub all_country_names {
     # than one code assigned, they will be in the same region: we just
     # need to test the first code.
     return grep { $country2code{$_}[0] =~ /^$code/ } keys %country2code;
+}
+
+sub country2code {
+    my ($country) = @_;
+    my $codes = $country2code{$country};
+    return defined $codes ? @$codes : undef;
 }
 
 
