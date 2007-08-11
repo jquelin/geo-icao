@@ -459,6 +459,13 @@ Return the list of all ICAO country names. If a region C<$code> is
 given, return only the country names of this region. (Note: dies if
 C<$code> isn't a valid ICAO region code).
 
+
+=item . my @codes = country2code( $country )
+
+Return the list of ICAO codes corresponding to C<$country>. It's a list
+since some countries have more than one code. Note that the codes can be
+single-letters (USA, etc.)
+
 =back
 
 
