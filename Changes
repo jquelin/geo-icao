@@ -11,6 +11,9 @@ High-level changelog
 Low-level changelog
 ===================
 
+0.22 Sat Aug 11 14:46:23 CEST 2007
+ - new subs country2code() / code2country()
+
 0.21 Sat Aug 11 14:06:19 CEST 2007
  - all_country_codes() / all_country_names() now accept a code to
    restrict to a given region
