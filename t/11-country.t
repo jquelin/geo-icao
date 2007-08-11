@@ -43,6 +43,7 @@ like( $@, qr/^'I' is not a valid region code/,
       'all_country_names() - limiting to a non-existent region' );
 
 
+#--
 # code2country()
 is( code2country('LF'),   'France', 'code2country() basic usage' );
 is( code2country('K'),    'USA',    'code2country() - one-letter usage' );
@@ -59,8 +60,8 @@ is( code2country('I'),    undef,    'code2country() - unknown code + one-letter'
 is( scalar @codes, 1,    'country2code() basic usage' );
 is( $codes[0],     'LF', 'country2code() basic usage' );
 @codes = country2code('Canada');
-is( scalar @codes, 1,   'country2code() - single-letter usage' );
-is( $codes[0],     'C', 'country2code() - single-letter usage' );
+is( scalar @codes, 1,    'country2code() - single-letter usage' );
+is( $codes[0],     'C',  'country2code() - single-letter usage' );
 @codes = sort(country2code('Brazil'));
 is( scalar @codes, 5,    'country2code() - multiple-codes usage' );
 is( $codes[0],     'SB', 'country2code() - multiple-codes usage' );

@@ -28,14 +28,14 @@ is( $length{1},    22, 'all_region_codes() returns 1-letter codes' );
 
 
 # code2region()
-is( code2region('K'),    'USA', 'basic code2region() usage' );
-is( code2region('KJFK'), 'USA', 'code2region() with an airport code' );
-is( code2region('I'),    undef, 'code2region() with unknown code' );
+is( code2region('K'),    'USA', 'code2region() basic usage' );
+is( code2region('KJFK'), 'USA', 'code2region() - airport code' );
+is( code2region('I'),    undef, 'code2region() - unknown code' );
 
 
 # region2code()
-is( region2code('Canada'),  'C',   'basic region2code() usage' );
-is( region2code('Unknown'), undef, 'region2code() with unknown name' );
+is( region2code('Canada'),  'C',   'region2code() basic usage' );
+is( region2code('Unknown'), undef, 'region2code() - unknown name' );
 
 
 exit;
