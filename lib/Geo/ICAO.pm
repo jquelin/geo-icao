@@ -22,10 +22,12 @@ our (@EXPORT_OK, %EXPORT_TAGS);
 {
     my @regions   = qw[ all_region_codes all_region_names region2code code2region ];
     my @countries = qw[ all_country_codes all_country_names country2code code2country ];
-    @EXPORT_OK = (@regions, @countries);
+    my @airports  = qw[ ];
+    @EXPORT_OK = (@regions, @countries, @airports);
     %EXPORT_TAGS = (
         region  => \@regions,
         country => \@countries,
+        airport => \@airports,
         all     => \@EXPORT_OK,
     );
 }
@@ -539,4 +541,3 @@ it under the same terms as Perl itself.
 =cut
 
 
-__DATA__
