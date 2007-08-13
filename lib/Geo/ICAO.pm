@@ -383,17 +383,15 @@ sub airport2code {
 sub code2airport {
     my ($code) = @_;
 
-    my $line;        # declared outside the loop to return a valid value
     seek DATA, 0, 0; # reset data iterator
     LINE:
-    while ( $line = <DATA>) {
+    while ( my $line = <DATA>) {
         next LINE unless $line =~ /^$code\|/;
-        last LINE;
+        chomp $line;
+        my (undef, $airport, $location) = split/\|/, $line;
+        return wantarray ? ($airport, $location) : $airport;
     }
-    return unless defined $line;
-    chomp $line;
-    my (undef, $airport, $location) = split/\|/, $line;
-    return wantarray ? ($airport, $location) : $airport;
+    return;          # no airport found
 }
 
 
