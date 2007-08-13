@@ -1,0 +1,86 @@
+#!/usr/bin/env perl
+#
+# This file is part of Geo::ICAO
+# Copyright (c) 2007 Jerome Quelin, all rights reserved.
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the same terms as Perl itself.
+#
+#
+
+use strict;
+use warnings;
+
+use charnames qw[ :full ];
+use Encode;
+use Readonly;
+
+# fetch data from wikipedia
+Readonly my $URL => 'http://en.wikipedia.org/wiki/List_of_airports_by_ICAO_code:_';
+
+foreach my $letter ( 'A' .. 'Z' ) {
+    my $url = $URL . $letter;
+    my @lines = qx[ lynx -dump -nolist -width=500 $url  ];
+    #my @lines = qx[cat codes];
+
+    foreach my $line ( map {decode('utf-8',$_)} @lines ) {
+        chomp $line;
+        next unless $line =~
+            /\A
+            \s+ \*                # a litteral *
+            \s+ $letter[A-Z]{3}   # the airport code
+            \s+                   # some space just after
+            .* \N{EN DASH}        # and a dash
+            /x;
+        my ($code, $name, $location) = split /\s*\N{EN DASH}\s*/, $line;
+        $code =~ s/^\s*\*\s*//;
+        $code =~ s/\s*\([^)]+\)\s*//;
+        $location ||= '';
+        my $out = "$code|$name|$location";
+        print encode('utf-8', "$out\n");
+    }
+}
+
+exit;
+
+__END__
+
+=head1 NAME
+
+get-airport_codes - fetch ICAO airport code from wikipedia
+
+
+=head1 SYNOPSIS
+
+    using vi to update Geo::ICAO...
+    $ vi lib/Geo/ICAO.pm
+        /__DATA
+        jdG
+        :r!scripts/get-airport_codes
+
+
+=head1 DESCRIPTION
+
+A comprehensive list of ICAO airport codes is available on
+L<http://en.wikipedia.org/wiki/List_of_airports_by_ICAO_code:_$letter>.
+C<get-airport_codes> is a small script that will fetch and parse these
+urls (one for each of the 26 letters), to extract this list of airport
+codes. It will then dump them as "code|name|location" lines, to be
+inserted directly in Geo::ICAO's C<DATA> section.
+
+
+=head1 AUTHOR
+
+Jerome Quelin, C<< <jquelin at cpan.org> >>
+
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright (c) 2007 Jerome Quelin, all rights reserved.
+
+This program is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+
+=cut
+
