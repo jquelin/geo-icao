@@ -14,7 +14,7 @@ use strict;
 use Carp;
 use List::Util qw[ first ];
 
-our $VERSION = '0.23';
+our $VERSION = '0.30';
 
 # exporting.
 use base qw[ Exporter ];
