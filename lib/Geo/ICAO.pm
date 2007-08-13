@@ -22,7 +22,7 @@ our (@EXPORT_OK, %EXPORT_TAGS);
 {
     my @regions   = qw[ all_region_codes all_region_names region2code code2region ];
     my @countries = qw[ all_country_codes all_country_names country2code code2country ];
-    my @airports  = qw[ ];
+    my @airports  = qw[ code2airport ];
     @EXPORT_OK = (@regions, @countries, @airports);
     %EXPORT_TAGS = (
         region  => \@regions,
@@ -367,12 +367,7 @@ sub code2country {
 #--
 # subs handling airports
 
-#
-# my $line = _get_line_from_airport_code($code);
-#
-# Given an airport $code, return the line describing it.
-#
-sub _get_line_from_airport_code {
+sub code2airport {
     my ($code) = @_;
 
     my $line;        # declared outside the loop to return a valid value
@@ -382,7 +377,10 @@ sub _get_line_from_airport_code {
         next LINE unless $line =~ /^$code\|/;
         last LINE;
     }
-    return $line;
+    return unless defined $line;
+    chomp $line;
+    my (undef, $airport, $location) = split/\|/, $line;
+    return wantarray ? ($airport, $location) : $airport;
 }
 
 
