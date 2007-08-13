@@ -508,6 +508,25 @@ Return undef if the associated region doesn't exist.
 
 
 
+=head2 Airports
+
+This set of functions allow retrieval and digging of the airports, which
+are defined on 4 letters.
+
+Note: you can import all those functions with the C<:airport> keyword.
+
+
+=over 4
+
+=item my $airport = code2airport( $code )
+
+Return the C<$airport> name corresponding to C<$code>. In list context,
+return both the airport name and its location (if known).
+
+=back
+
+
+
 =head1 BUGS
 
 Please report any bugs or feature requests to C<< < bug-geo-icao at
