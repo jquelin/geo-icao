@@ -364,6 +364,28 @@ sub code2country {
 }
 
 
+#--
+# subs handling airports
+
+#
+# my $line = _get_line_from_airport_code($code);
+#
+# Given an airport $code, return the line describing it.
+#
+sub _get_line_from_airport_code {
+    my ($code) = @_;
+
+    my $line;        # declared outside the loop to return a valid value
+    seek DATA, 0, 0; # reset data iterator
+    LINE:
+    while ( $line = <DATA>) {
+        next LINE unless $line =~ /^$code\|/;
+        last LINE;
+    }
+    return $line;
+}
+
+
 1;
 #__END__
 
