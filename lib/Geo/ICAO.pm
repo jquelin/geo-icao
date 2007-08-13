@@ -22,7 +22,7 @@ our (@EXPORT_OK, %EXPORT_TAGS);
 {
     my @regions   = qw[ all_region_codes all_region_names region2code code2region ];
     my @countries = qw[ all_country_codes all_country_names country2code code2country ];
-    my @airports  = qw[ code2airport ];
+    my @airports  = qw[ airport2code code2airport ];
     @EXPORT_OK = (@regions, @countries, @airports);
     %EXPORT_TAGS = (
         region  => \@regions,
@@ -366,6 +366,19 @@ sub code2country {
 
 #--
 # subs handling airports
+
+sub airport2code {
+    my ($name) = @_;
+
+    seek DATA, 0, 0; # reset data iterator
+    LINE:
+    while ( my $line = <DATA>) {
+        my ($code, $airport, undef) = split/\|/, $line;
+        next LINE unless lc($airport) eq lc($name);
+        return $code;
+    }
+    return;          # no airport found
+}
 
 sub code2airport {
     my ($code) = @_;
