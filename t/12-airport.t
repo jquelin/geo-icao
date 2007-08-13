@@ -12,7 +12,7 @@ use strict;
 use warnings;
 
 use Geo::ICAO qw[ :airport ];
-use Test::More tests => 5;
+use Test::More tests => 9;
 
 
 #--
@@ -55,16 +55,10 @@ is( $details[1],     'Lyon', 'code2airport() - location' );
 
 #--
 # airport2code()
-#@codes = airport2code('France');
-#is( scalar @codes, 1,    'airport2code() basic usage' );
-#is( $codes[0],     'LF', 'airport2code() basic usage' );
-#@codes = airport2code('Canada');
-#is( scalar @codes, 1,    'airport2code() - single-letter usage' );
-#is( $codes[0],     'C',  'airport2code() - single-letter usage' );
-#@codes = sort( +airport2code('Brazil') ); # '+' desambiguates perl56 parsing
-#is( scalar @codes, 5,    'airport2code() - multiple-codes usage' );
-#is( $codes[0],     'SB', 'airport2code() - multiple-codes usage' );
-#is( airport2code('Unknown'), undef, 'airport2code() - unknown name' );
+is( airport2code('Lyon Bron Airport'),  'LFLY', 'airport2code() basic usage' );
+is( airport2code('Courchevel Airport'), 'LFLJ', 'airport2code() - rewinding' );
+is( airport2code('Foobar Airport'),     undef,  'airport2code() - unknown name' );
+is( airport2code('lyon bron airport'),  'LFLY', 'airport2code() - case insensitive' );
 
 
 exit;
