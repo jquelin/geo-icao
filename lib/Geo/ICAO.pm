@@ -362,6 +362,8 @@ sub code2country {
 }
 
 
+1;
+#__END__
 
 =head1 NAME
 
@@ -536,5 +538,5 @@ it under the same terms as Perl itself.
 
 =cut
 
-1;
+
 __DATA__
