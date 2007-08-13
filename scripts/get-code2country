@@ -40,7 +40,7 @@ __END__
 
 =head1 NAME
 
-get_code2country - fetch ICAO country code from wikipedia
+get-code2country - fetch ICAO country code from wikipedia
 
 
 =head1 SYNOPSIS
@@ -49,13 +49,13 @@ get_code2country - fetch ICAO country code from wikipedia
     $ vi lib/Geo/ICAO.pm
         /CODE2COUNTRY
         0d}
-        :r!scripts/get_code2country
+        :r!scripts/get-code2country
 
 
 =head1 DESCRIPTION
 
 A comprehensive list of ICAO country codes s described on
-L<http://en.wikipedia.org/wiki/ICAO_airport_code>. C<get_code2country> is a
+L<http://en.wikipedia.org/wiki/ICAO_airport_code>. C<get-code2country> is a
 small script that will fetch and parse this url, to extract this list of
 country codes. It will then dump them as Perl code, to be inserted directly in
 Geo::ICAO.
