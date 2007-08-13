@@ -400,10 +400,15 @@ Geo::ICAO - Airport and ICAO codes lookup
     my @region_codes = all_region_codes();
     my @region_names = all_region_names();
     my $code   = region2code('Canada');
-    my $region = code2region('K');
+    my $region = code2region('C');
 
     my @country_codes = all_country_codes();
     my @country_names = all_country_names();
+    my @codes   = country2code('Brazil');
+    my $region  = code2country('SB');
+
+    my $airport = code2airport('LFLY');
+    my ($airport, $location) = code2airport('LFLY'); # list context
 
 
 
