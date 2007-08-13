@@ -12,6 +12,9 @@ High-level changelog
 Low-level changelog
 ===================
 
+0.31 Mon Aug 13 18:42:37 CEST 2007
+ - new sub airport2code()
+
 0.30 Mon Aug 13 10:48:08 CEST 2007
  - new sub code2airport()
 
