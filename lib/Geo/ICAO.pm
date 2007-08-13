@@ -418,6 +418,7 @@ Geo::ICAO - Airport and ICAO codes lookup
     my @codes   = country2code('Brazil');
     my $region  = code2country('SB');
 
+    my $code    = airport2code('Lyon Bron Airport');
     my $airport = code2airport('LFLY');
     my ($airport, $location) = code2airport('LFLY'); # list context
 
@@ -534,7 +535,13 @@ Note: you can import all those functions with the C<:airport> keyword.
 
 =over 4
 
-=item my $airport = code2airport( $code )
+=item . my $code = airport2code( $airport )
+
+Return the C<$code> of the C<$airport>, undef i no airport matched. Note
+that the string comparison is done on a case-insensitive basis.
+
+
+=item . my $airport = code2airport( $code )
 
 Return the C<$airport> name corresponding to C<$code>. In list context,
 return both the airport name and its location (if known).
