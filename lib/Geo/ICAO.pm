@@ -22,7 +22,7 @@ our (@EXPORT_OK, %EXPORT_TAGS);
 {
     my @regions   = qw[ all_region_codes all_region_names region2code code2region ];
     my @countries = qw[ all_country_codes all_country_names country2code code2country ];
-    my @airports  = qw[ all_airport_codes airport2code code2airport ];
+    my @airports  = qw[ all_airport_codes all_airport_names airport2code code2airport ];
     @EXPORT_OK = (@regions, @countries, @airports);
     %EXPORT_TAGS = (
         region  => \@regions,
@@ -382,6 +382,25 @@ sub all_airport_codes {
         next LINE unless $line =~ /^$code/;  # filtering on $code
         my ($c, undef) = split/\|/, $line;
         push @codes, $c;
+    }
+    return @codes;
+}
+
+sub all_airport_names {
+    my ($code) = @_;
+
+    croak 'should provid a region or country code' unless defined $code;
+    croak "'$code' is not a valid region or country code"
+        unless exists $code2country{$code}
+            || exists $code2region{$code};
+
+    seek DATA, 0, 0; # reset data iterator
+    my @codes;
+    LINE:
+    while ( my $line = <DATA>) {
+        next LINE unless $line =~ /^$code/;  # filtering on $code
+        my (undef, $airport, undef) = split/\|/, $line;
+        push @codes, $airport;
     }
     return @codes;
 }
