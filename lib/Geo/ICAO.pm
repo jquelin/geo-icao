@@ -456,7 +456,8 @@ Geo::ICAO - Airport and ICAO codes lookup
     my @codes   = country2code('Brazil');
     my $region  = code2country('SB');
 
-    my @airport_codes = all_airport_codes('K');
+    my @airport_codes = all_airport_codes('B');
+    my @airport_names = all_airport_names('B');
     my $code    = airport2code('Lyon Bron Airport');
     my $airport = code2airport('LFLY');
     my ($airport, $location) = code2airport('LFLY'); # list context
@@ -577,6 +578,15 @@ Note: you can import all those functions with the C<:airport> keyword.
 =item . my @codes = all_airport_codes( $code )
 
 Return the list of all ICAO airport codes in the C<$code> country
+(C<$code> can also be a region code). Note that compared to the region
+or country equivalent, this function B<requires> an argument. It will
+die otherwise (or if C<$code> isn't a valid ICAO country or region
+code).
+
+
+=item . my @codes = all_airport_names( $code )
+
+Return the list of all ICAO airport names in the C<$code> country
 (C<$code> can also be a region code). Note that compared to the region
 or country equivalent, this function B<requires> an argument. It will
 die otherwise (or if C<$code> isn't a valid ICAO country or region
