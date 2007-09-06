@@ -12,22 +12,30 @@ use strict;
 use warnings;
 
 use Geo::ICAO qw[ :airport ];
-use Test::More tests => 9;
+use Test::More tests => 16;
 
 
 #--
 # all_airport_codes()
-#my @codes = all_airport_codes();
-#my %length = (); $length{ length $_ }++ foreach @codes;
-#is( scalar @codes, 234, 'all_airport_codes() returns 234 codes' );
-#is( $length{1},    5,   'all_airport_codes() returns 5 countries with 1-letter code' );
-#is( $length{2},    229, 'all_airport_codes() returns countries with 2-letters codes' );
-##- limiting to a region
-#@codes = all_airport_codes('H');
-#is( scalar @codes, 13, 'all_airport_codes() - limiting to a region' );
-#eval { @codes = all_airport_codes('I'); };
-#like( $@, qr/^'I' is not a valid region code/,
-#      'all_airport_codes() - limiting to a non-existent region' );
+# - limiting to a country
+my @codes = all_airport_codes('LA');
+my %start = (); $start{ substr $_,0, 2 }++ foreach @codes;
+is( scalar @codes, 9, 'all_airport_codes() basic country usage' );
+is( $start{LA},    9, 'all_airport_codes() - all codes belong to the country' );
+@codes = all_airport_codes('HK');
+is( scalar @codes, 26, 'all_airport_codes() - rewinding' );
+# - limiting to a region
+@codes = all_airport_codes('H');
+$start{ substr $_,0, 1 }++ foreach @codes;
+is( scalar @codes, 175, 'all_airport_codes() - limiting to a region' );
+is( $start{H},     175, 'all_airport_codes() - limiting to a region' );
+# - error handling
+eval { @codes = all_airport_codes('I'); };
+like( $@, qr/^'I' is not a valid region or country code/,
+      'all_airport_codes() - limiting to a non-existent region' );
+eval { @codes = all_airport_codes('SZ'); };
+like( $@, qr/^'SZ' is not a valid region or country code/,
+      'all_airport_codes() - limiting to a non-existent country' );
 
 
 #--
