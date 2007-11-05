@@ -12,6 +12,9 @@ High-level changelog
 Low-level changelog
 ===================
 
+0.34 Mon Nov  5 18:57:34 CET 2007
+ - requiring perl 5.8 to quiet 5.6-related errors
+
 0.33 Tue Aug 14 18:45:01 CEST 2007
  - new sub all_airport_names()
 
