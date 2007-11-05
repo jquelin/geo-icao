@@ -8,6 +8,7 @@
 #
 #
 
+BEGIN { require 5.008; }
 use strict;
 use warnings;
 use ExtUtils::MakeMaker;
