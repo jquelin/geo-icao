@@ -22,10 +22,16 @@ my $builder = Module::Build->new (
         map { ( '*/' x $_ ) . '*~' } 0..4 ],
     script_files   => [ ],
     build_requires => {
-        'perl'       => '5.008',
         'Test::More' => 0,
+        'perl'       => '5.008',
     },
     requires       => { 
+        'perl'       => '5.008',
+    },
+    recommends     => {
+        'Test::Kwalitee'      => 0,
+        'Test::Pod'           => 0,
+        'Test::Pod::Coverage' => 0,
     },
 );
 
