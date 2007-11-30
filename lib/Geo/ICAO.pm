@@ -1411,6 +1411,7 @@ EDHI|Hamburg Finkenwerder Airport|Hamburg
 EDHK|Kiel Holtenau Airport|Kiel
 EDHL|Lübeck Airport|Lübeck
 EDIU|Heidelberg Airport|Heidelberg
+EDJA|Allgäu Airport|Memmingen
 EDKA|Aachen-Merzbrück Airport|Aachen
 EDKB|Bonn-Hangelar Airport|Sankt Augustin
 EDKL|Leverkusen Airport|Leverkusen
@@ -1423,7 +1424,9 @@ EDLV|Weeze Airport (formerly Niederrhein Airport)|Weeze
 EDLW|Dortmund Airport|Dortmund
 EDNY|Bodensee Airport|Friedrichshafen
 EDMA|Augsburg Airport|Augsburg
+EDMQ|Donauwörth Airport|Genderkingen
 EDQD|Bindlacher Berg Airport (Bayreuth Airport)|Bayreuth
+EDQMHof-Plauen Airfield|Plauen|
 EDRB|Bitburg Airport|Bitburg
 EDRK|Koblenz Winningen|Winningen, Mosel
 EDRZ|Zweibrücken Airport|Zweibrücken
@@ -1435,6 +1438,7 @@ EDXM|St. Michaelisdonn|St. Michaelisdonn
 EDXW|Sylt Airport|Westerland, Sylt
 ETAD|Spangdahlem Air Base|Spangdahlem
 ETAR|Ramstein Air Base|Ramstein
+ETHL|Laupheim Army Base|Laupheim
 ETHM|Mendig Army Base|Niedermendig
 ETHS|Fassberg Army&Air Base|Fassberg
 ETNG|NATO Air Base Geilenkirchen|Geilenkirchen
@@ -1512,6 +1516,7 @@ EFRV|Kiuruvesi Airport|Kiuruvesi
 EFRY|Räyskälä Airport|Räyskälä
 EFSA|Savonlinna Airport|Savonlinna
 EFSE|Selänpää Airport|Selänpää
+EFSISeinajoki Airport|Seinajoki|
 EFSO|Sodankylä Airport|Sodankylä
 EFTP|Tampere-Pirkkala Airport|Tampere / Pirkkala
 EFTS|Teisko Airport|Teisko
@@ -1581,7 +1586,7 @@ EGES|Sanday Airport|Sanday, Scotland
 EGET|Tingwall Airport|Lerwick, Scotland
 EGEW|Westray Airport|Aikerness, Scotland
 EGFA|Aberporth Airport|Cardigan, Wales
-EGFC|Tremorfa Heliport|Cardiff, Wales
+EGFC|Cardiff Heliport|Cardiff, Wales
 EGFE|Haverfordwest Aerodrome|Haverfordwest, Wales
 EGFF|Cardiff International Airport|Cardiff, Wales
 EGFH|Swansea Airport|Swansea, Wales
@@ -1769,7 +1774,7 @@ EHSB|Soesterberg Air Base|Soesterberg
 EHSE|Seppe Airport|Hoeven
 EHST|Stadskanaal Airfield|Stadskanaal
 EHTE|Teuge International Airport|Deventer
-EHTL|Terlet|Terlet
+EHTL|Terlet Airfield|Terlet
 EHTW|Enschede Airport Twente|Enschede
 EHTX|Texel International Airport|Texel
 EHVB|Valkenburg Airbase|Valkenburg
@@ -1808,6 +1813,7 @@ EKYT|Aalborg Airport|Aalborg
 EKVD|Vamdrup Airport|Kolding
 EKVG|Vagar Airport|Faroe Islands
 ELLX|Luxembourg International Airport|Luxembourg
+ELNT|Airfield Noertrange|Luxembourg
 ENAL|Ålesund Airport, Vigra|Ålesund, Møre og Romsdal
 ENAN|Andøya Airport, Andenes|Andenes, Nordland
 ENAS|Ny-Ålesund Airport, Hamnerabben|Ny-Ålesund, Svalbard
@@ -1890,12 +1896,13 @@ EPGD|Gdańsk Lech Wałęsa Airport|Gdańsk
 EPKK|John Paul II International Airport Kraków-Balice|Kraków
 EPKT|International Airport Katowice in Pyrzowice|Katowice
 EPLL|Łódź Władysław Reymont Airport (formerly Łódź-Lublinek Airport)|Łódź
+EPMO|Modlin Airport|Nowy Dwór Mazowiecki
 EPPO|Poznań-Ławica Airport|Poznań
 EPRZ|Rzeszów-Jasionka Airport|Rzeszów
 EPSC|Szczecin-Goleniów "Solidarność" Airport|Szczecin
 EPSY|Szczytno-Szymany International Airport|Szczytno
 EPWA|Warsaw Frederic Chopin Airport (formerly Okecie International Airport)|Warsaw
-EPWR|Wrocław International Airport|Wrocław
+EPWR|Copernicus Airport Wrocław|Wrocław
 EPZG|Zielona Góra-Babimost Airport|Zielona Góra
 ESCF|Malmen Air Base|Linköping
 ESCK|Bråvalla Air Base|Norrköping
@@ -2089,7 +2096,7 @@ EYPN|Panevėžys Airport|Panevėžys
 EYPP|Pajuostis Airport (Military)|Pajuostis
 EYPR|Pociūnai Airport|Pociūnai
 EYRK|Rokiškis Airport|Rokiškis
-EYRU|Rukla Airport|Rukla
+EYRU|Rukla Airport|Jonava
 EYSA|Šiauliai International Airport (Civil/Military)|Šiauliai
 EYSB|Barysiai Airport (Civil/Military)|Barysiai
 EYSE|Šeduva Airport|Šeduva
@@ -2125,6 +2132,7 @@ FAHL|Hluhluwe Airport|Hluhluwe
 FAHR|Harrismith Airport|Harrismith
 FAJS|OR Tambo International Airport|Johannesburg
 FAKD|Klerksdorp Airport|Klerksdorp
+FAKF|Kersefontein Farm|Hopefield
 FAKM|Kimberley Airport|Kimberley
 FAKN|Kruger Mpumalanga International Airport|Nelspruit (Kruger National Park)
 FAKP|Komatipoort Airport|Komatipoort
@@ -2170,7 +2178,7 @@ FATN|Thaba Nchu Airport|Thaba Nchu
 FATZ|Tzaneen Airport|Tzaneen
 FAUL|Ulundi Airport|Ulundi
 FAUP|Upington Airport|Upington
-FAUT|K.D. Matanzima Airport|Umtata
+FAUT|K. D. Matanzima Airport|Umtata
 FAVB|Vryburg Airport|Vryburg
 FAVG|Virginia Airport|Durban
 FAVR|Vredendal Airport|Vredendal
@@ -2359,7 +2367,7 @@ FNCT|Catumbela Airport|Catumbela
 FNCV|Cuito Cuanavale Airport|Cuito Cuanavale
 FNCZ|Cazombo Airport|Cazombo
 FNGI|Ngiva Airport|Ngiva
-FNHU|Nova Lisbo Airport|Huambo
+FNHU|Nova Lisboa Airport|Huambo
 FNKU|Kuito Airport|Kuito
 FNLU|Quatro de Fevereiro Airport|Luanda
 FNMA|Malanje Airport|Malanje
@@ -2460,6 +2468,7 @@ FWCM|Club Makokola Airport|Club Makokola
 FWDW|Dwanga Airport|Dwanga
 FWKA|Karonga Airport|Karonga
 FWKI|Lilongwe International Airport (Kamuzu Int'l)|Lilongwe
+FWMG|Mangochi Airport|Mangochi
 FWMY|Monkey Bay Airport|Monkey Bay
 FWSM|Salima Airport|Salima
 FWUU|Mzuzu Airport|Mzuzu
@@ -2544,6 +2553,7 @@ FZRF|Kalemie Airport|Kalemie
 FZRM|Kabalo Airport|Kabalo
 FZRQ|Kongolo Airport|Kongolo
 FZSA|Base Airport|Kamina
+FZSB|Kamina Airport|Kamina
 FZSK|Kapanga Airport|Kapanga
 FZTK|Kaniama Airport|Kaniama
 FZUA|Kananga Airport|Kananga
@@ -2559,10 +2569,10 @@ FZWA|Mbuji Mayi Airport|Mbuji Mayi
 FZWC|Gandajika Airport|Gandajika
 GABS|Senou International Airport|Bamako
 GAGM|Goundam Airport|Goundam
-GAGO|Korogoussou Airport|Gao
+GAGO|Gao International Airport (Korogoussou Airport)|Gao
 GAKO|Koutiala Airport|Koutiala
 GAKY|Kayes Airport|Kayes
-GAMB|Barbe Airport|Mopti
+GAMB|Mopti Airport (Barbe Airport)|Mopti
 GANR|Nioro Airport|Nioro
 GASK|Sikasso Airport|Sikasso
 GATB|Tombouctou Airport|Tombouctou
@@ -2607,6 +2617,7 @@ GMFO|Angads Airport|Oujda
 GMMC|Anfa Airport|Casablanca
 GMME|Sale Airport|Rabat
 GMMF|Sidi Ifni Airport|Sidi Ifni
+GMMI|Mogador Airport|Essaouira
 GMMN|Mohammed V International Airport|Casablanca
 GMMP|Kenitra Airport|Kenitra
 GMMS|Safi Airport|Safi
@@ -2615,7 +2626,7 @@ GMMY|Tourisme Airport|Kenitra
 GMMZ|Ouarzazate Airport|Ouarzazate
 GMTA|Cherif Al Idrissi Airport|Al Hoceima
 GMTN|Sania Ramel Airport|Tétouan
-GMTT|Boukhaif/Tanger Airport|Tanger
+GMTT|Ibn Batouta International Airport (Boukhaif/Tanger Airport)|Tanger
 GMMA|Smara Airport|Smara, Western Sahara
 GMMH|Dakhla Airport|Dakhla (Villa Cisneros), Western Sahara
 GMML|Hassan Airport|El Aaiún (Laâyoune), Western Sahara
@@ -2702,6 +2713,7 @@ HATP|Tippi Airport|Tippi
 HAWC|Wacca Airport|Wacca
 HBBA|Bujumbura International Airport|Bujumbura
 HBBE|Gitega Airport|Gitega
+HBBO|Kirundo Airport|Kirundo
 HCMA|Alula Airport|Alula
 HCMB|Baidoa Airport|Baidoa
 HCMC|Candala Airport|Candala
@@ -2801,8 +2813,9 @@ HSOB|El Obeid Airport|El Obeid
 HSPN|Port Sudan New International Airport|Port Sudan
 HSSJ|Juba Airport|Juba
 HSSM|Malakal Airport|Malakal
-HSSP|Port Sudan Airport|Port Sudan
+HSSP|Port Sudan New International Airport|Port Sudan
 HSSS|Khartoum International Airport|Khartoum
+HSSW|Wadi Halfa Airport|Wadi Halfa
 HSWW|Wau Airport|Wau
 HTAR|Arusha Airport|Arusha
 HTBU|Bukoba Airport|Bukoba
@@ -2848,7 +2861,7 @@ KAAF|Apalachicola Municipal Airport|Apalachicola, Florida
 KAAO|Colonel James Jabara Airport|Wichita, Kansas
 KAAS|Taylor County Airport|Campbellsville, Kentucky
 KAAT|Alturas Municipal Airport|Alturas, California
-KABE|Lehigh Valley International Airport|Hanover Township, Lehigh County, Pennsylvania (near Allentown, Bethlehem and Easton)
+KABE|Lehigh Valley International Airport|Allentown, Bethlehem and Easton, Pennsylvania
 KABI|Abilene Regional Airport|Abilene, Texas
 KABQ|Albuquerque International Sunport|Albuquerque, New Mexico
 KABR|Aberdeen Regional Airport|Aberdeen, South Dakota
@@ -2867,7 +2880,7 @@ KADG|Lenawee County Airport|Adrian, Michigan
 KADH|Ada Municipal Airport|Ada, Oklahoma
 KADM|Ardmore Municipal Airport|Ardmore, Oklahoma
 KADS|Addison Airport|Addison, Texas
-KADT|Atwood-Rawlins County Airport|Atwood, Kansas
+KADT|Atwood-Rawlins County City-County Airport|Atwood, Kansas
 KADU|Audubon County Airport|Audubon, Iowa
 KADW|Andrews Air Force Base|Camp Springs, Maryland
 KAEG|Double Eagle II Airport|Albuquerque, New Mexico
@@ -2876,10 +2889,10 @@ KAEX|Alexandria International Airport|Alexandria, Louisiana
 KAFF|United States Air Force Academy Airfield|Colorado Springs, Colorado
 KAFJ|Washington County Airport|Washington, Pennsylvania
 KAFK|Nebraska City Municipal Airport|Nebraska City, Nebraska
-KAFN|Jaffrey Airport - Silver Ranch Airport|Jaffrey, New Hampshire
+KAFN|Jaffrey Airport - Silver Ranch Airpark|Jaffrey, New Hampshire
 KAFO|Afton Municipal Airport|Afton, Wyoming
 KAFP|Anson County Airport|Wadesboro, North Carolina
-KAFW|Fort Worth Alliance Airport, Fort Worth, Texas|
+KAFW|Fort Worth Alliance Airport|Fort Worth, Texas
 KAGC|Allegheny County Airport|West Mifflin, Pennsylvania
 KAGO|Magnolia Municipal Airport|Magnolia, Arkansas
 KAGR|MacDill Air Force Base Auxiliary Field|Avon Park, Florida
@@ -2890,7 +2903,7 @@ KAHH|Amery Municipal Airport|Amery, Wisconsin
 KAHN|Athens-Ben Epps Airport|Athens, Georgia
 KAHQ|Wahoo Municipal Airport|Wahoo, Nebraska
 KAIA|Alliance Municipal Airport|Alliance, Nebraska
-KAID|Anderson Municipal-Darlington Field|Anderson, Indiana
+KAID|Anderson Municipal Airport (Darlington Field)|Anderson, Indiana
 KAIG|Langlade County Airport|Antigo, Wisconsin
 KAIK|Aiken Municipal Airport|Aiken, South Carolina
 KAIO|Atlantic Municipal Airport|Atlantic, Iowa
@@ -2941,12 +2954,12 @@ KAPV|Apple Valley Airport|Apple Valley, California
 KAQO|Llano Municipal Airport|Llano, Texas
 KAQP|Appleton Municipal Airport|Appleton, Minnesota
 KAQR|Atoka Municipal Airport|Atoka, Oklahoma
-KAQW|Harriman and West Airport|North Adams, Massachusetts
+KAQW|Harriman-and-West Airport|North Adams, Massachusetts
 KARA|Acadiana Regional Airport|New Iberia, Louisiana
 KARB|Ann Arbor Municipal Airport|Ann Arbor, Michigan
 KARG|Walnut Ridge Regional Airport|Walnut Ridge, Arkansas
 KARM|Wharton Regional Airport|Wharton, Texas
-KARR|Aurora Municipal Airport (Al Potter Field)|Aurora, Illinois
+KARR|Aurora Municipal Airport|Aurora, Illinois
 KART|Watertown International Airport|Watertown, New York
 KARV|Lakeland Airport (Noble F. Lee Memorial Field)|Minocqua / Woodruff, Wisconsin
 KASD|Slidell Airport|Slidell, Louisiana
@@ -3093,7 +3106,7 @@ KBRO|Brownsville/South Padre Island International Airport|Brownsville, Texas
 KBRY|Samuels Field|Bardstown, Kentucky
 KBST|Belfast Municipal Airport|Belfast, Maine
 KBTF|Skypark Airport|Bountiful, Utah
-KBTL|W.K. Kellogg Regional Airport|Battle Creek, Michigan
+KBTL|W. K. Kellogg Regional Airport|Battle Creek, Michigan
 KBTM|Bert Mooney Airport|Butte, Montana
 KBTN|Britton Municipal Airport|Britton, South Dakota
 KBTP|Butler County Airport (K.W. Scholter Field)|Butler, Pennsylvania
@@ -3290,7 +3303,7 @@ KCYO|Pickaway County Memorial Airport|Circleville, Ohio
 KCYS|Cheyenne Regional Airport (Jerry Olson Field)|Cheyenne, Wyoming
 KCYW|Clay Center Municipal Airport|Clay Center, Kansas
 KCZD|Cozad Municipal Airport|Cozad, Nebraska
-KCZG|Tri-Cities Airport|[[Endicott, New York]
+KCZG|Tri-Cities Airport|Endicott, New York
 KCZK|Cascade Locks State Airport|Cascade Locks, Oregon
 KCZL|Tom B. David Field|Calhoun, Georgia
 KCZT|Dimmit County Airport|Carrizo Springs, Texas
@@ -3586,7 +3599,7 @@ KFZG|Fitzgerald Municipal Airport|Fitzgerald, Georgia
 KFZI|Fostoria Metropolitan Airport|Fostoria, Ohio
 KFZY|Oswego County Airport|Fulton, New York
 KGAB|Gabbs Airport|Gabbs, Nevada
-KGAD|Gadsden Municipal Airport|Gadsden, Alabama
+KGAD|Northeast Alabama Regional Airport|Gadsden, Alabama
 KGAF|Grafton Municipal Airport|Grafton, North Dakota
 KGAI|Montgomery County Airpark|Gaithersburg, Maryland
 KGBD|Great Bend Municipal Airport|Great Bend, Kansas
@@ -3605,7 +3618,7 @@ KGGF|Grant Municipal Airport|Grant, Nebraska
 KGGG|East Texas Regional Airport|Longview, Texas
 KGGW|Wokal Glasgow International Airport|Glasgow, Montana
 KGJT|Walker Field Airport|Grand Junction, Colorado
-KGKJ|Port Meadville Airport|Port Meadville, Pennsylvania
+KGKJ|Port Meadville Airport|Meadville, Pennsylvania
 KGKY|Arlington Municipal Airport|Arlington, Texas
 KGLD|Renner Goodland Municipal Airport|Goodland, Kansas
 KGLH|Mid Delta Regional Airport|Greenville, Mississippi
@@ -3731,7 +3744,7 @@ KIDP|Independence Municipal Airport|Independence, Kansas
 KIFP|Laughlin/Bullhead International Airport|Bullhead City, Arizona
 KIGM|Kingman Airport|Kingman, Arizona
 KIIB|Independence Municipal Airport|Independence, Iowa
-KILE|Skylark Field Airport|Kileen, Texas
+KILE|Skylark Field Airport|Killeen, Texas
 KILG|New Castle County Airport|Wilmington, Delaware
 KIML|Imperial Municipal Airport|Imperial, Nebraska
 KIND|Indianapolis International Airport|Indianapolis, Indiana
@@ -3742,7 +3755,7 @@ KIPL|Imperial County Airport|Imperial, California
 KIPT|Williamsport Regional Airport|Williamsport, Pennsylvania
 KISN|Sloulin International Airport|Williston, North Dakota
 KITR|Kit Carson County Airport|Burlington, Colorado
-KIWA|Williams Gateway Airport|Mesa, Arizona
+KIWA|Phoenix-Mesa Gateway Airport|Mesa, Arizona
 KIXD|New Century AirCenter|Olathe, Kansas
 KIYK|Inyokern Airport|Inyokern, California
 KIZA|Santa Ynez Airport|Santa Ynez, California
@@ -3787,6 +3800,7 @@ KLGF|Laguna Army Airfield|Yuma, Arizona
 KLGU|Logan-Cache Airport|Logan, Utah
 KLHB|Hearne Municipal Airport|Hearne, Texas
 KLHM|Lincoln Regional Airport/Harder Field|Lincoln, California
+KLHQ|Fairfield County Airport|Lancaster, Ohio
 KLHX|La Junta Municipal Airport|La Junta, Colorado
 KLIC|Limon Municipal Airport|Limon, Colorado
 KLIT|Little Rock National Airport Adams Field|Little Rock, Arkansas
@@ -3830,8 +3844,8 @@ KMAE|Madera Municipal Airport|Madera, California
 KMAF|Midland International Airport|Midland, Texas
 KMBG|Mobridge Municipal Airport|Mobridge, South Dakota
 KMBO|Campbell Airport|Madison, Mississippi
-KMCB|McComb Pike County Airport (John E. Lewis Field)|McComb, Mississippi
-KMCC|McClellan Airport|Sacramento, California
+KMCB|McComb-Pike County Airport (John E. Lewis Field)|McComb, Mississippi
+KMCC|McClellan Air Force Base|Sacramento, California
 KMCE|Merced Municipal Airport|Merced, California
 KMCI|Kansas City International Airport|Kansas City, Missouri
 KMCK|McCook Municipal Airport|McCook, Nebraska
@@ -3858,7 +3872,7 @@ KMHL|Memorial Municipal Airport|Marshall, Missouri
 KMHN|Hooker County Airport|Mullen, Nebraska
 KMHR|Mather Airport|Sacramento, California
 KMHT|Manchester-Boston Regional Airport|Manchester, New Hampshire
-KMHV|Mohave Spaceport|Mohave, California
+KMHV|Mojave Spaceport|Mojave, California
 KMIA|Miami International Airport|Miami, Florida
 KMIB|Minot Air Force Base|Minot, North Dakota
 KMIT|Shafter-Minter Airport|Shafter, California
@@ -3907,35 +3921,35 @@ KMYV|Yuba County Airport|Marysville, California
 KMYZ|Marysville Municipal Airport|Marysville, Kansas
 KMZJ|Pinal Airpark|Pinal County, Arizona
 KNAB|Albany Naval Air Station|Albany, Georgia
-KNEL|Lakehurst NAES|Lakehurst, New Jersey
+KNEL|Naval Air Engineering Station Lakehurst|Lakehurst, New Jersey
 KNGU|Norfolk Naval Station|Norfolk, Virginia
 KNGZ|Alameda Naval Air Station|Alameda, California
-KNFG|Camp Pendleton CGAS|Oceanside, California
-KNFL|Fallon NAS|Fallon, Nevada
-KNHK|Patuxent River NAS|Patuxent River, Maryland
-KNID|China Lake NWIS|Ridgecrest, California
+KNFG|Marine Corps Air Station Camp Pendleton|Oceanside, California
+KNFL|Naval Air Station Fallon|Fallon, Nevada
+KNHK|Naval Air Station Patuxent River|Patuxent River, Maryland
+KNID|Naval Air Weapons Station China Lake|Ridgecrest, California
 KNIP|Naval Air Station Jacksonville|Jacksonville, Florida
-KNJK|El Centro NAF|El Centro, California
+KNJK|Naval Air Facility El Centro|El Centro, California
 KNJW|Williams NOLF|Meridian, Mississippi
-KNKX|Miramar MCAS|San Diego, California
-KNLC|Lemoore NAS|Lemoore, California
-KNMM|Meridian NAS|Meridian, Mississippi
-KNOW|Port Angeles CGAS|Port Angeles, Washington
+KNKX|Marine Corps Air Station Miramar|San Diego, California
+KNLC|Naval Air Station Lemoore|Lemoore, California
+KNMM|Naval Air Station Meridian|Meridian, Mississippi
+KNOW|Coast Guard Air Station Port Angeles|Port Angeles, Washington
 KNRA|Coupeville NOLF|Coupeville, Washington
 KNRN|Norton Municipal Airport|Norton, Kansas
-KNRS|Imperial Beach NOLF|Imperial Beach, California
+KNRS|Naval Outlying Landing Field Imperial Beach|Imperial Beach, California
 KNSI|San Nicolas Island NOLF|San Nicolas Island, California
-KNTD|Point Mugu NAS|Oxnard, California
-KNTK|Tustin MCAS|Santa Ana, California
-KNUC|San Clemente Island NALF|San Clemente, California
+KNTD|Naval Air Station Point Mugu|Oxnard, California
+KNTK|Marine Corps Air Station Tustin|Santa Ana, California
+KNUC|Naval Auxilliary Landing Field San Clemente Island|San Clemente, California
 KNUI|Webster NOLF|Saint Inigoes, Maryland
 KNUQ|Moffett Federal Airfield|Mountain View, California
 KNUW|Whidbey Island Naval Air Station|Oak Harbor, Washington
-KNYL|Yuma MCAS|Yuma, Arizona
+KNYL|Marine Corps Air Station Yuma|Yuma, Arizona
 KNXP|Twentynine Palms EAF|Twentynine Palms, California
 KNXX|Naval Air Station Willow Grove|Willow Grove, Pennsylvania
-KNZJ|El Toro MCAS|Santa Ana, California
-KNZY|North Island NAS|San Diego, California
+KNZJ|Marine Corps Air Station El Toro|Santa Ana, California
+KNZY|Naval Air Station North Island|San Diego, California
 KOAK|Oakland International Airport|Oakland, California
 KOAR|Marina Airport|Marina, California
 KODX|Sharp Airport|Ord, Nebraska
@@ -3984,6 +3998,7 @@ KPDK|DeKalb-Peachtree Airport|Atlanta, Georgia
 KPDT|Eastern Oregon Regional Airport|Pendleton, Oregon
 KPDX|Portland International Airport|Portland, Oregon
 KPFC|Pacific City State Airport|Pacific City, Oregon
+KPFN|Panama City-Bay County International Airport|Panama City, FL
 KPGA|Page Municipal Airport|Page, Arizona
 KPGR|Kirk Airport|Paragould, Arkansas
 KPGV|Pitt-Greenville Airport|Greenville, North Carolina
@@ -3994,6 +4009,7 @@ KPHT|Henry County Airport|Paris, Tennessee
 KPHX|Phoenix Sky Harbor International Airport|Phoenix, Arizona
 KPIA|Greater Peoria Regional Airport|Peoria, Illinois
 KPIB|Hattiesburg-Laurel Regional Airport|Hattiesburg, Mississippi
+KPIE|St. Petersburg-Clearwater International Airport|St. Petersburg, Florida
 KPIH|Pocatello Regional Airport|Pocatello, Idaho
 KPIR|Pierre Regional Airport|Pierre, South Dakota
 KPIT|Pittsburgh International Airport|Pittsburgh, Pennsylvania
@@ -4027,6 +4043,7 @@ KPVD|T.F. Green State Airport|Providence, Rhode Island
 KPVF|Placerville Airport|Placerville, California
 KPVU|Provo Municipal Airport|Provo, Utah
 KPWD|Sher-Wood Airport|Plentywood, Montana
+KPWM|Portland International Jetport|Portland, Maine
 KPWT|Bremerton National Airport|Bremerton, Washington
 KQGX|Al Dhafra Air Base, United Arab Emirates|
 KQIR|Al Udeid Air Base, Qatar|
@@ -4070,6 +4087,7 @@ KRPX|Roundup Airport|Roundup, Montana
 KRQE|Window Rock Municipal Airport|Window Rock, Arizona
 KRRT|Warroad International Airport (Swede Carlson Field)|Warroad, Minnesota
 KRSL|Russell Municipal Airport|Russell, Kansas
+KRST|Rochester International Airport|Rochester, Minnesota
 KRTN|Raton Municipal Airport-Crews Field|Raton, New Mexico
 KRUE|Russellville Regional Airport|Russellville, Arkansas
 KRUG|Rugby Municipal Airport|Rugby, North Dakota
@@ -4107,7 +4125,7 @@ KSFD|Wiley Airport|Winner, South Dakota
 KSFF|Felts Field|Spokane, Washington
 KSFO|San Francisco International Airport|San Mateo County, California
 KSFZ|North Central State Airport|Pawtucket, Rhode Island
-KSGF|Springfield/Branson National Airport|Springfield, Missouri
+KSGF|Springfield-Branson National Airport|Springfield, Missouri
 KSGT|Stuttgart Municipal Airport|Stuttgart, Arkansas
 KSGU|St. George Municipal Airport|St. George, Utah
 KSHN|Sanderson Airport|Shelton, Washington
@@ -4185,6 +4203,7 @@ KTPH|Tonopah Airport|Tonopah, Nevada
 KTPL|Draughon-Miller Central Texas Regional Airport|Temple, Texas
 KTQE|Tekamah Airport|Tekamah, Nebraska
 KTQK|Scott City Municipal Airport|Scott City, Nebraska
+KTRI|Tri-Cities Regional Airport|Blountville, Tennessee
 KTRK|Truckee-Tahoe Airport|Truckee, California
 KTRM|Desert Resorts Regional Airport|Palm Springs, California
 KTSP|Tehachapi Municipal Airport|Tehachapi, California
@@ -4208,6 +4227,7 @@ KUKI|Ukiah Municipal Airport|Ukiah, California
 KUKL|Coffey County Airport|Burlington, Kansas
 KULS|Ulysses Airport|Ulysses, Kansas
 KUNV|University Park Airport|University Park, Pennsylvania
+KUOS|Franklin County Airport|Sewanee, Tennessee
 KUOX|University-Oxford Airport|Oxford, Mississippi
 KUTS|Huntsville Municipal Airport|Huntsville, Texas
 KUUU|Newport State Airport|Newport, Rhode Island
@@ -4217,7 +4237,7 @@ KVBT|Bentonville Municipal Airport|Bentonville, Arkansas
 KVCB|Nut Tree Airport|Vacaville, California
 KVCT|Victoria Regional Airport|Victoria, Texas
 KVCV|Southern California Logistics Airport|Victorville, California
-KVEL|Vernal Airport|Vernal, Utah
+KVEL|Vernal-Uintah County Airport|Vernal, Utah
 KVER|Viertel Memorial|Boonville, Missouri
 KVIS|Visalia Municipal Airport|Visalia, California
 KVKS|Vicksburg Municipal Airport|Vicksburg, Mississippi
@@ -4264,11 +4284,12 @@ LASK|Shkodër Airport|Shkodër (Shkodra)
 LASR|Sarandë Airport|Sarandë (Saranda)
 LATI|Rinas Mother Teresa Airport|Tirana
 LAVL|Vlorë Airport|Vlorë (Vlora)
-LBBG|Burgas International Airport (also known as Sarafovo Airport)|Burgas
-LBGO|Gorna Oryahovitsa Airport|Gorna Oryahovitsa
-LBPD|Plovdiv International Airport|Plovdiv
-LBSF|Sofia International Airport (also known as Vrazhdebna)|Sofia
-LBWN|Varna International Airport|Varna
+LBBG [BOJ]|Burgas International Airport (also known as Sarafovo Airport)|Burgas
+LBSF [SOF]|Sofia International Airport (also known as Vrazhdebna)|Sofia
+LBWN [VAR]|Varna International Airport|Varna
+LBPD [PDV]|International Airport|Plovdiv
+LBGO [GOZ]|Oryahovitsa Airport|Gorna Oryahovitsa
+LBPG Graf Ignatievo [Bulgarian Air Forces Military Base - Status: ACTIVE] Graf Ignatievo|Graf Ignatievo Graf Ignatievo|Graf Ignatievo Air Base
 LCEN|Ercan International Airport|Nicosia Turkish Republic of Northern Cyprus
 LCLK|Larnaca International Airport|Larnaca, Cyprus
 LCNC|Nicosia International Airport (abandoned)|Nicosia
@@ -4828,6 +4849,7 @@ LHSN|Szolnok Airport|Szolnok
 LHSK|Siofok-Kiliti Airport|Sagvar
 LHTA|Taszar Airport|Taszar
 LHTL|Tököl Airport|Tököl
+LHPA|Papa Airport|Papa
 LIAF|Foligno Airport|Foligno
 LIAP|Preturo Airport|L'Aquila
 LIAT|Pontedera Airport|Pontedera, Pisa
@@ -4843,7 +4865,7 @@ LIBR|Casale Airport|Brindisi
 LIBV|Gioia del Colle Air Force Base|Gioia del Colle, Bari
 LIBX|Martina Franca Air Force Base|Martina Franca, Taranto
 LICA|Lamezia Terme International Airport|Lamezia Terme, Catanzaro
-LICC|Catania-Vincenzo Bellini Airport (Catania International Airport)|Catania
+LICC|Catania-Fontanarossa Airport (Catania-Fontanarossa Airport)|Catania
 LICD|Lampedusa Airport|Lampedusa
 LICG|Pantelleria Airport (military?)|Pantelleria, Trapani
 LICJ|Palermo International Airport (Punta Raisi Falcone-Borsellino Airport)|Palermo / Punta Raisi
@@ -4884,7 +4906,7 @@ LIMS|San Damiano Air Force Base|Piacenza
 LIMW|Aosta Airport (Corrado Gex Airport)|Aosta
 LIMZ|Cuneo Levaldigi Airport|Cuneo
 LIPA|Aviano Air Base|Aviano, Pordenone
-LIPB|Bolzano Dolomiti Airport|Bolzano, South Tyrol
+LIPB|Bolzano Dolomiti Airport|Bolzano, Bolzano-Bozen
 LIPC|Cervia Air Force Base|Cervia, Ravenna
 LIPD|Campoformido Airport (military?)|Campoformido / Udine
 LIPE|Bologna Airport (Guglielmo Marconi Airport)|Bologna
@@ -5026,7 +5048,7 @@ LLJR|Atarot Airport (Jerusalem International Airport)|Jerusalem (currently close
 LLKS|Qiryat Shemona Airport|Qiryat Shemona (Kiryat-Shmona)
 LLMG|Megiddo Airport|Megiddo (Meggido)
 LLMR|Mitzpe Ramon Airfield|Mitzpe Ramon
-LLMZ|Masada Airfield (I. Bar-Yehuda Airfield)|Masada
+LLMZ|Bar Yehuda Airfield|Masadaָ
 LLNV|Nevatim Israeli Air Force Base|Nevatim
 LLOV|Ovda International Airport|Negev
 LLRD|Ramat David Israeli Air Force Base|Megiddo
@@ -5130,6 +5152,7 @@ LSGN|Neuchâtel|
 LSGP|La Côte|
 LSGR|Reichenbach|
 LSGS|Sion Airport|Sion — the ICAO code applies to the civilian airport only
+LSMS|Sion military airfield|
 LSGT|Gruyères|
 LSGY|Yverdon-les-Bains|
 LSHC|Collombey-Muraz (Heliport)|
@@ -5225,7 +5248,14 @@ LTFD|Edremit Körfez Airport|Balıkesir
 LTFE|Milas-Bodrum Airport|Milas
 LTFH|Samsun Çarsamba Airport|Samsun
 LTFJ|Istanbul Sabiha Gökçen International Airport|Istanbul
+LUBL|Bălţi Airport|Bălţi
+LUBM|Mărculeşti Airport|Mărculeşti
+LUCH|Cahul Airport|Cahul
+LUCM|Camenca Airport|Camenca
 LUKK|Chişinău International Airport|Chişinău
+LUSR|Soroca Airport|Soroca
+LUTG|Tighina Airport|Tighina
+LUTR|Tiraspol Airport|Tiraspol
 LVGZ|Yasser Arafat International Airport (formerly Gaza International Airport)|Rafah
 LWOH|Ohrid Airport|Ohrid
 LWSK|Skopje Airport|Skopje
@@ -5247,7 +5277,9 @@ LYPO|Ćemovsko Polje Airport|Podgorica, Montenegro
 LYTV|Tivat Airport|Tivat, Montenegro
 LZIB|Milan Rastislav Štefánik Airport (Bratislava Airport)|Bratislava
 LZKZ|Košice International Airport|Košice
+LZSL|Sliač Airport|Sliač
 LZTT|Poprad-Tatry Airport|Poprad
+LZZI|Žilina Airport|Žilina
 MBGT|JAGS McCartney International Airport (Grand Turk Int'l)|Grand Turk Island
 MBMC|Middle Caicos Airport|Middle Caicos
 MBNC|North Caicos Airport|North Caicos
@@ -5568,7 +5600,7 @@ MYBO|Ocean Cay Airport|Ocean Cay, Bimini
 MYBS|South Bimini Airport|South Bimini, Bimini
 MYBW|Big Whale Cay Airport|Big Whale Cay, Berry Islands
 MYBX|Lt. Whale Cay Airport|Lt. Whale Cay, Berry Islands
-MYCA|Arthurs Town Airport|Arthurs Town, Cat Island
+MYCA|Arthur's Town Airport|Arthur's Town, Cat Island
 MYCB|New Bight Airport|New Bight, Cat Island
 MYCC|Cat Cay Airport|Cat Cay, Bimini
 MYCH|Hawks Nest Airport|Hawks Nest, Cat Island
@@ -5665,7 +5697,7 @@ NLWW|Hihifo Airport|Wallis Island
 NSAU|Asau Airport|Asau
 NSFA|Faleolo International Airport|Apia
 NSFI|Fagali'i Airport|Fagali'i
-NSMA|Maota Savail Island Airport|Maota Savail Island
+NSMA|Maota Airport|Maota
 NSFQ|Fitiuta Airport|Fitiuta
 NSTU|Pago Pago International Airport (Tutuila Intl)|Pago Pago
 NTAA|Faa'a International Airport|Faa'a, Tahiti
@@ -5696,7 +5728,7 @@ NTMD|Nuku-Hiva Airport|Nuku Hiva, Marquesas Islands
 NTMN|Atuona Airport|Hiva Oa, Marquesas Islands
 NTMP|Ua Pou Airport|Marquesas Islands
 NTMU|Ua-Huka Airport|Ua Huka, Marquesas Islands
-NTTB|Motu-Mute Airport|Bora Bora, Leeward Islands (Society Islands)
+NTTB|Bora Bora Airport (Motu-Mute Airport)|Bora Bora, located on Moto Mute
 NTTE|Tetiaroa Airport|Society Islands
 NTTG|Rangiroa Airport|Rangiroa, Tuamotus
 NTTH|Fare Airport|Huahine, Leeward Islands (Society Islands)
@@ -5706,12 +5738,12 @@ NTTP|Maupiti Airport|Maupiti, Society Islands
 NTTR|Uturoa Airport|Raiatea, Society Islands
 NTUV|Vahitahi Airport|Vahitahi
 NVSC|Vanua Lava Island Airport|Sola
-NVSE|Sangafa Airport|Émaé
+NVSE|Siwo Airport|Émaé
 NVSF|Craig Cove Airport|Craig Cove
 NVSG|Longana Airport|Longana
 NVSH|Sara Airport|Sara
 NVSL|Malekoula Island Airport|Lamap
-NVSM|Lamen-Bay Airport|Lamen-Bay
+NVSM|Lamen Bay Airport|Lamen-Bay
 NVSN|Maewo-Naone Airport|Maewo-Naone
 NVSO|Lonorore Airport|Lonorore
 NVSP|Norsup Airport|Norsup
@@ -5723,7 +5755,7 @@ NVSV|Valesdir Airport|Valesdir
 NVSW|Walaha Airport|Walaha
 NVSX|South West Bay Airport|South West Bay
 NVVB|Aniwa Airport|Aniwa
-NVVD|Dillon's Bay Airport|Dillon's Bay
+NVVD|Dillon’s Bay Airport|Dillon's Bay
 NVVF|Futuna Airport|Futuna
 NVVI|Ipota Airport|Ipota
 NVVQ|Quoin Hill Airport|Quoin Hill
@@ -5873,6 +5905,7 @@ NZWN|Wellington International Airport|Wellington
 NZWO|Wairoa Aerodrome|Wairoa
 NZWP|Whenuapai Airbase (RNZAF)|Whenuapai
 NZWR|Whangarei Airport|Whangarei
+NZWL|West Melton Aerodrome|West Melton, New Zealand
 NZWS|Westport Airport|Westport
 NZWT|Whitianga Aerodrome|Whitianga
 NZWU|Wanganui Airport|Wanganui
@@ -5919,7 +5952,7 @@ OEPA|Qaisumah Domestic Airport|Qaisumah (also known as Qaysumah)
 OERF|Rafha Domestic Airport|Rafha
 OERK|King Khalid International Airport|Riyadh
 OERR|Arar Domestic Airport|Arar (also known as Ar'ar)
-OESH|Sharorah Domestic Airport|Sharorah (also known as Sharurah)
+OESH|Sharurah Domestic Airport|Sharurah (also known as Sharorah)
 OESK|al-Jouf Domestic Airport|al-Jouf (also known as al-Jawf)
 OETB|Tabuk Regional Airport|Tabuk
 OETF|Ta’if Regional Airport|Ta’if
@@ -5929,35 +5962,50 @@ OEWJ|Wedjh Domestic Airport|Wedjh (also known as Wejh)
 OEYN|Yanbu Domestic Airport|Yanbu (also known as Yenbo)
 OIAA|Abadan Airport|Abadan
 OIAM|Mahshahr Airport|Mahshahr
-OIAW|Ahwaz Airport|Ahwaz
+OIAW|Ahvaz Airport|Ahwaz
 OIBB|Bushehr Airport|Bushehr
+OIBI|Asalouyeh Airport|Asalouyeh
 OIBK|Kish Airport|Kish Island
 OIBL|Bandar Lengeh Airport|Bandar Lengeh
+OIBP|Persian Gulf Airport|Khalije Fars
 OIBQ|Khark Airport|Khark Island
 OIBS|Sirri Island Airport|Sirri Island
 OIBV|Lavan Airport|Lavan Island
 OICC|Shahid Ashrafi Esfahani Airport|Kermanshah
-OICK|Khoram Abad Airport|Khoram Abad
+OICI|Ilam Airport|Ilam
+OICK|Khorramabad Airport|Khorramabad
 OICS|Sanandaj Airport|Sanandaj
 OIFM|Isfahan International Airport (Esfahan Shahid Beheshti Int'l)|Isfahan (Esfahan)
+OIFS|Shahrekord Airport|Shahrekord
 OIGG|Rasht Airport|Rasht
 OIHH|Hamadan Airport|Hamadan
 OIIE|Imam Khomeini International Airport|Tehran
 OIII|Mehrabad International Airport|Tehran
-OIKB|Bandar Abbass International Airport|Bandar Abbass
+OIKB|Bandar Abbas International Airport|Bandar Abbas
+OIKJ|Jiroft Airport|Jiroft
 OIKK|Kerman Airport|Kerman
 OIKM|Bam Airport|Bam
+OIKQ|Dayrestan Airport|Qeshm
 OIKR|Rafsanjan Airport|Rafsanjan
 OIKY|Sirjan Airport|Sirjan
 OIMB|Birjand Airport|Birjand
 OIMC|Sarakhs Airport|Sarakhs
 OIMM|Mashhad International Airport (Shahid Hashemi Nejad Airport)|Mashhad
-OIMN|Bojnord Airport|Bojnord
+OIMN|Bojnourd Airport|Bojnourd
+OIMS|Sabzevar Airport|Sabzevar
 OIMT|Tabas Airport|Tabas
+OING|Gorgan Airport|Gorgan
+OINN|Noshahr Airport|Noshahr
 OINR|Ramsar Airport|Ramsar
 OINZ|Dasht-e Naz Airport|Sari
+OISL|Larestan International Airport|Lar
+OISR|Lamerd Airport|Lamerd
 OISS|Shiraz International Airport (Shiraz Shahid Dastghaib Int'l)|Shiraz
+OISY|Yasuj Airport|Yasuj
+OITK|Kyoy Airport|Khoy
 OITL|Ardabil Airport|Ardabil
+OITP|Parsabad-Moghan Airport|Parsabad
+OITR|Urmia Airport|Urmia
 OITT|Tabriz International Airport|Tabriz
 OIYY|Shahid Sadooghi Airport|Yazd
 OIZB|Zabol Airport|Zabol
@@ -6080,7 +6128,7 @@ OYSH|Saadah Airport|Saadah
 OYSN|Sana'a International Airport|Sana'a
 OYSQ|Moori Airport|Socotra
 OYSY|Sayun Airport|Sayun
-OYTZ|Ganed Airport|Taiz
+OYTZ|Ta'izz International Airport|Taiz
 PAAK|Atka Airport|Atka, Alaska
 PAAP|Port Alexander Seaplane Base|Port Alexander, Alaska
 PAAQ|Palmer Municipal Airport|Palmer, Alaska
@@ -6155,6 +6203,7 @@ PAKI|Kipnuk Airport|Kipnuk, Alaska
 PAKK|Koyuk Airport (Koyuk Alfred Adams Airport)|Koyuk, Alaska
 PAKL|Kulik Lake Airport|Kulik Lake, Alaska
 PAKN|King Salmon Airport|King Salmon, Alaska
+PAKO|Nikolski Air Station|Nikolski, Alaska
 PAKP|Anaktuvuk Pass Airport|Anaktuvuk Pass, Alaska
 PAKT|Ketchikan International Airport|Gravina Island, near Ketchikan, Alaska
 PAKU|Ugnu-Kuparuk Airport|Kuparuk, Alaska
@@ -6276,12 +6325,12 @@ PLPA|Palmyra Airport|Palmyra Atoll
 PMDY|Henderson Field (Naval Air Facility)|Sand Island
 POLI|Oliktok Long Range Radar Station|Oliktok Point, Alaska
 PPIZ|Point Lay Long Range Radar Station|Point Lay, Alaska
-PTKK|Chuuk Airport|Chuuk
+PTKK|Chuuk International Airport|Chuuk
 PTPN|Pohnpei International Airport|Pohnpei
-PTSA|Caroline Islands Airport (Kosrae Airport)|Kosrae
-PTYA|Yap Airport|Yap
+PTSA|Kosrae International Airport|Kosrae
+PTYA|Yap International Airport|Yap
 PTRO|Palau International Airport (Babelthuap/Koror Airport)|Airai, Palau
-PWAK|Wake Island Air Base|
+PWAK|Wake Island Airfield|
 RCKH|Kaohsiung International Airport|Kaohsiung City
 RCNN|Tainan Airport|Tainan City
 RCSS|Taipei Songshan Airport|Taipei City
@@ -6290,6 +6339,7 @@ RCYU|Hualien Airport|Hualien
 RJAA|Narita International Airport (New Tokyo)|Narita, Chiba
 RJAF|Matsumoto Airport|Matsumoto, Nagano
 RJAH|Hyakuri Airfield (military base; civil aviation facility under construction; to open as Ibaraki Airport)|Omitama, Ibaraki
+RJAM|Minami Torishima Airport|Minami Torishima
 RJAN|Niijima Airport|Niijima, Tokyo
 RJAZ|Kozushima Airport|Kozushima, Tokyo
 RJBB|Kansai International Airport|Osaka
@@ -6364,28 +6414,13 @@ RJSS|Sendai Airport|Natori, Miyagi (near Sendai)
 RJSU|Katsuminome Airport|Sendai
 RJSY|Shonai Airport|Sakata, Yamagata
 RJTA|Naval Air Facility Atsugi|
-RJTF|Chofu Airport|Chofu, Tokyo
+RJTF|Chofu Airport|Chōfu, Tokyo
 RJTH|Hachijojima Airport|Hachijojima, Tokyo
 RJTK Kisarazu Auxiliary Landing Field|Kisarazu, Chiba|
 RJTO|Oshima Airport|Izu Ōshima, Tokyo
 RJTQ|Miyakejima Airport|Miyakejima, Tokyo
 RJTT|Tokyo International Airport (Haneda)|Ota, Tokyo
 RJTY|Yokota Air Base|(suburbs of Tokyo)
-RKJJ|Gwangju Airport|Gwangju
-RKJK|Gunsan Airport|Gunsan
-RKJM|Mokpo Airport|Yeongam County (near Mokpo)
-RKJY|Yeosu Airport|Yeosu
-RKNW|Wonju Airport|Wonju
-RKNY|Yangyang International Airport|Yangyang County
-RKPC|Jeju International Airport|Jeju
-RKPK|Gimhae International Airport|Pusan
-RKPS|Sacheon Airport|Sacheon
-RKPU|Ulsan Airport|Ulsan
-RKSI|Incheon International Airport|Seoul
-RKSS|Gimpo International Airport|Gimpo
-RKTH|Pohang Airport|Pohang
-RKTN|Daegu Airport|Daegu
-RKTU|Cheongju Airport|Cheongju
 ROAH|Naha Airport|Naha, Okinawa
 RODN|Kadena Air Base|Okinawa City, Okinawa
 ROIG|Ishigaki Airport|Ishigaki, Okinawa
@@ -6402,6 +6437,23 @@ RORS|Shimojishima Airport|Irabu, Okinawa
 RORT|Tarama Airport|Tarama, Okinawa
 RORY|Yoron Airport|Yoron, Kagoshima
 ROYN|Yonaguni Airport|Yonaguni, Okinawa
+RKJJ|Gwangju Airport|Gwangju
+RKJK|Gunsan Airport|Gunsan
+RKJM|Mokpo Airport|Yeongam County (near Mokpo)
+RKJY|Kunsan Air Base|Kunsan
+RKJY|Yeosu Airport|Yeosu
+RKNW|Wonju Airport|Wonju
+RKNY|Yangyang International Airport|Yangyang County
+RKPC|Jeju International Airport|Jeju
+RKPK|Gimhae International Airport|Pusan
+RKPS|Sacheon Airport|Sacheon
+RKPU|Ulsan Airport|Ulsan
+RKSI|Incheon International Airport|Seoul
+RKSO|Osan Air Base|Osan
+RKSS|Gimpo International Airport|Gimpo
+RKTH|Pohang Airport|Pohang
+RKTN|Daegu Airport|Daegu
+RKTU|Cheongju Airport|Cheongju
 RPLB|Subic Bay International Airport|Subic Bay
 RPLC|Diosdado Macapagal International Airport (Clark International Airport)|Angeles
 RPLI|Laoag International Airport|Laoag
@@ -6413,7 +6465,7 @@ RPMA|Allah Valley Airport|Surallah
 RPMB|General Santos International Airport (Buayan Airport)|General Santos
 RPMC|Awang Airport|Cotabato
 RPMD|Francisco Bangoy International Airport|Davao
-RPME|Butuan Airport|Butuan
+RPME|Butuan Airport (Bancasi Airport)|Butuan
 RPMF|Bislig Airport|Bislig
 RPMG|Dipolog Airport|Dipolog
 RPMH|Mambajao Airport (Camiguin Airport)|Mambajao
@@ -6447,7 +6499,7 @@ RPVA|Daniel Z. Romualdez Airport|Tacloban
 RPVB|Bacolod City Domestic Airport|Bacolod
 RPVC|Calbayog Airport|Calbayog
 RPVD|Sibulan Airport|Dumaguete City
-RPVE|Malay Airport|Caticlan
+RPVE|Malay Airport (Godofredo P. Ramos Airport)|Caticlan
 RPVF|Catarman National Airport|Catarman
 RPVI|Mandurriao Airport|Iloilo
 RPVJ|Masbate Airport|Masbate
@@ -6455,15 +6507,16 @@ RPVK|Kalibo Airport|Kalibo
 RPVM|Mactan-Cebu International Airport|Cebu / Lapu-Lapu
 RPVO|Ormoc Airport|Ormoc
 RPVP|Puerto Princesa Airport|Puerto Princesa
-RPVR|Roxas City Airport|Roxa
+RPVR|Roxas Airport|Roxa
 RPVS|Evelio Javier Airport (formerly Antique Airport)|San Jose (Antique)
-RPVT|Tagbilaran City Airport|Tagbilaran City
+RPVT|Tagbilaran Airport|Tagbilaran City
 RPVU|Tablas Airport (Romblon Airport)|Tablas, Romblon
 RPVV|Busuanga Airport (Coran Airport)|Busuanga
 RPXU|Sorsogon Airport|Sorsogon City
 SAAC|Comodoro J.J. Pierrestegui Airport|Concordia, Entre Ríos Province
 SAAG|Gualeguaychú Airport|Gualeguaychú, Entre Ríos Province
 SAAJ|Junín Airport|Junín, Buenos Aires Province
+SAAK|Martin Garcia Airport|Isla Martín Garcia, Buenos Aires Province
 SAAP|General Urquiza Airport (General Justo José de Urquiza Airport)|Paraná, Entre Ríos Province
 SAAR|Rosario International Airport ("Islas Malvinas")|Rosario, Santa Fe Province
 SAAV|Sauce Viejo Airport|Santa Fe, Santa Fe Province
@@ -6677,7 +6730,7 @@ SBTX|Tubarão Airport|Tubarão, Santa Catarina
 SBUA|São Gabriel da Cachoeira Airport|São Gabriel da Cachoeira, Amazonas
 SBUF|Paulo Afonso Airport|Paulo Afonso, Bahia
 SBUG|Rubem Berta Airport|Uruguaiana, Rio Grande do Sul
-SBUL|Uberlândia Airport|Uberlândia, Minas Gerais
+SBUL|Ten. Cel. Av. César Bombonato Airport|Uberlândia, Minas Gerais
 SBUP|Urubupungá Airport|Urubupungá, São Paulo
 SBUR|Uberaba Airport|Uberaba, Minas Gerais
 SBVG|Major Brigadeiro Trompowsky Airport|Varginha, Minas Gerais
@@ -6693,6 +6746,7 @@ SDJD|Jundiaí Airport|Jundiaí, São Paulo
 SDLP|Lençóis Paulista Airport|Lençóis Paulista, São Paulo
 SDRS|Resende Airport|Resende, Rio de Janeiro
 SDSC|São Carlos Airport|São Carlos, São Paulo
+SJTC|Bauru Arealva Airport|Bauru, São Paulo
 SNAR|Almenara Airport|Almenara, Minas Gerais
 SNBL|Belmonte Airport|Belmonte, Bahia
 SNBR|Barreiras Airport|Barreiras, Bahia
@@ -6710,6 +6764,7 @@ SSBL|Blumenau Airport|Blumenau, Santa Catarina
 SSCK|Concordia Airport|Concordia, Amazonas
 SSDO|Dourados Airport|Dourados, Minas Gerais
 SSER|Erechim Airport|Erechim, Rio Grande do Sul
+SSGB|Guaratuba Airport|Guaratuba, Paraná
 SSIJ|Ijuí Airport|Ijuí, Rio Grande do Sul
 SSIQ|Itaqui Airport|Itaqui, Rio Grande do Sul
 SSKM|Campo Mourão Airport|Campo Mourão, Paraná
@@ -6815,20 +6870,20 @@ SGFI|Filadelfia Airport|Filadelfia
 SGME|Mariscal Estigarribia Airport|Mariscal Estigarribia
 SGPI|Pilar Airport|Pilar
 SKAC|Araracuara Airport|Araracuara
-SKAD|Acandi Airport|Acandi
+SKAD|Acandí Airport|Acandí
 SKAG|Cesar Airport|Aguaciara
 SKAM|Amalfi Airport|Amalfi
 SKAN|Andes Airport|Andes
 SKAP|Gomez Nino-Apiay Airport|Apiay
 SKAR|El Eden Airport|Armenia
-SKAS|Tres De Mayo Airport|Puerto Asis
+SKAS|Tres De Mayo Airport|Puerto Asís
 SKBC|Las Flores Airport|El Banco
 SKBG|Palonegro Airport|Lebrija (near Bucaramanga)
 SKBO|El Dorado International Airport|Bogotá
 SKBQ|Ernesto Cortissoz International Airport|Barranquilla
-SKBS|Jose Celestino Mutis Airport|Bahia Solano
+SKBS|Jose Celestino Mutis Airport|Bahía Solano
 SKBU|Buenaventura Airport|Buenaventura
-SKCA|Capurgana Airport|Capurgana
+SKCA|Capurganá Airport|Capurganá
 SKCC|Camilo Daza International Airport|Cúcuta
 SKCD|Mandinga Airport|Condoto
 SKCG|Rafael Nuñez International Airport|Cartagena
@@ -6837,7 +6892,7 @@ SKCL|Alfonso Bonilla Aragón International Airport|Cali
 SKCM|Cimitarra Airport|Cimitarra
 SKCO|La Florida Airport|Tumaco
 SKCU|Caucasia Airport|Caucasia
-SKCV|Covenas Airport|Covenas
+SKCV|Coveñas Airport|Coveñas
 SKCZ|Las Brujas Airport|Corozal
 SKEB|El Bagre Airport|El Bagre
 SKEJ|Yariguies Airport|Barrancabermeja
@@ -6848,26 +6903,26 @@ SKGP|Guapi Airport|Guapi
 SKHA|Chaparral Airport|Chaparral
 SKHC|Hato Corozal Airport|Hato Corozal
 SKIB|Perales Airport|Ibagué
-SKIG|Chigorodo Airport|Chigorodo
+SKIG|Chigorodó Airport|Chigorodó
 SKIP|San Luis Airport|Ipiales
-SKIU|Tibu Airport|Tibu
+SKIU|Tibú Airport|Tibú
 SKLM|La Mina Airport|Maicao
 SKLP|La Pedrera Airport|La Pedrera
 SKLT|Alfredo Vasquez Cobo International Airport|Leticia
 SKMD|Olaya Herrera International Airport|Medellín
 SKMF|Miraflores Airport|Miraflores
-SKMG|Baracoa Airport|Magangue
+SKMG|Baracoa Airport|Magangué
 SKMR|Los Garzones Airport|Montería
-SKMU|Fabio Alberto Leon Bentley Airport|Mitu
+SKMU|Fabio Alberto Leon Bentley Airport|Mitú
 SKMZ|La Nubia Airport|Manizales
-SKNC|Antioquia Airport|Necocli
-SKNQ|Nuqui Airport|Nuqui
+SKNC|Antioquia Airport|Necoclí
+SKNQ|Nuqui Airport|Nuquí
 SKNV|Benito Sala/La Manguita Airport|Neiva
 SKOC|Aguas Claras Airport|Ocaña
 SKOE|Orocue Airport|Orocue
 SKOT|Otu Airport|Otu
 SKPC|Puerto Carreño Airport|Puerto Carreño
-SKPD|Obando Airport|Puerto Intrida
+SKPD|Obando Airport|Puerto Inírida
 SKPE|Matecaña International Airport|Pereira
 SKPI|Pitalito Airport|Pitalito
 SKPL|Plato Airport|Plato
@@ -6880,17 +6935,17 @@ SKQU|Mariquita Airport|Mariquita
 SKRG|José María Córdova International Airport|Medellín/Rio Negro
 SKRH|Almirante Padilla Airport|Riohacha
 SKSA|Los Colonizadores Airport|Saravena
-SKSJ|San Jose del Guaviare Airport|San Jose del Guaviare
-SKSM|Simon Bolivar Airport|Santa Marta
-SKSP|Gustavo Rojas Pinilla International Airport (Sesquicentenario Airport)|San Andres Island
+SKSJ|San José del Guaviare Airport|San José del Guaviare
+SKSM|Simón Bolívar Airport|Santa Marta
+SKSP|Gustavo Rojas Pinilla International Airport (Sesquicentenario Airport)|San Andrés Island
 SKSR|San Marcos Airport|San Marcos
-SKSV|San Vicente del Caguan Airport|San Vicente del Caguan
+SKSV|San Vicente del Caguán Airport|San Vicente del Caguán
 SKTD|Trinidad Airport|Trinidad
 SKTJ|Gustavo Rojas Pinilla Airport|Tunja
 SKTM|Tame Airport|Tame
 SKTQ|Tres Esquinas AB|Tres Esquinas
 SKTU|Gonzalo Mejia Airport|Turbo
-SKUA|Marandua AB|Marandua
+SKUA|Marandúa AB|Marandúa
 SKUC|Santiago Perez Airport|Arauca
 SKUI|El Carano Airport|Quibdó
 SKUL|Farfan Airport|Tuluá
@@ -6898,7 +6953,7 @@ SKUR|Urrao Airport|Urrao
 SKVP|Alfonso Lopez Pumarejo Airport|Valledupar
 SKVV|Vanguardia Airport|Villavicencio
 SKYA|Yaguara Airport|Yaguara
-SKYP|El Yopal Airport|El-Yopal
+SKYP|Yopal Airport|Yopal
 SLAP|Apolo Airport|Apolo
 SLAS|Ascenscion de Guarayos Airport|Ascencion de Guarayos
 SLBJ|Bermejo Airport|Bermejo
@@ -6993,7 +7048,7 @@ SPLO|Ilo Airport|Ilo, Moquegua Region
 SPLP|Las Palmas Air Base (military)|Barranco, Lima Province
 SPME|Capitán FAP Pedro Canga Rodríguez Airport|Tumbes, Tumbes Region
 SPMF|Manuel Prado Ugarteche Airport|Mazamari, Junín Region
-SPMR|Santa Maria Airport|Santa Maria
+SPMR|Santa Maria Airport, Peru|Santa Maria
 SPMS|Moisés Benzaquen Rengifo Airport|Yurimaguas, Loreto Region
 SPNC|Alférez FAP David Figueroa Fernandini Airport|Huánuco, Huánuco Region
 SPOA|Saposoa Airport|Saposoa
@@ -7002,7 +7057,7 @@ SPPY|Chachapoyas Airport|Chachapoyas, Amazonas Region
 SPQN|Requena Airport|Requena, Loreto Region
 SPQT|Coronel FAP Francisco Secada Vignetta Airport|Iquitos, Loreto Region
 SPQU|Rodríguez Ballón International Airport|Arequipa, Arequipa Region
-SPRF|San Rafael|San Rafael, Peru
+SPRF|San Rafael Airport (Peru)|San Rafael, Peru
 SPRM|Capitán FAP Leonardo Alvariño Herr Airport|San Ramón, Junín Region
 SPRU|Capitán FAP Carlos Martínez de Pinillos Airport|Trujillo, La Libertad Region
 SPSF|San Francisco Airport|San Francisco
@@ -7105,15 +7160,15 @@ TBPB|Grantley Adams International Airport|Bridgetown
 TBPO|Bridgetown City Airport|Bridgetown
 TDCF|Canefield Airport|Roseau
 TDPD|Melville Hall Airport|Marigot
-TFFA|Grande Anse Airport|Grande-Anse, La Désirade
+TFFA|Grande-Anse Airport|Grande-Anse, La Désirade
 TFFB|Baillif Airport|Baillif, Basse-Terre
-TFFC|Saint-François Airport|Saint-François
-TFFG|Grand Case Airport|Grand Case, Saint-Martin
-TFFJ|Saint-Barthélemy Airport|Gustavia, Saint-Barthélemy
-TFFM|Marie Galante Airport|Grand-Bourg, Marie-Galante
-TFFR|Pointe-à-Pitre International Airport|Pointe-à-Pitre
+TFFC|Saint-François Airport|Saint-François, Grande-Terre
+TFFM|Marie-Galante Airport|Grand-Bourg, Marie-Galante
+TFFR|Pointe-à-Pitre - Le Raizet Airport|Pointe-à-Pitre, Grande-Terre
 TFFS|Les Saintes Airport|Terre-de-Haut, Les Saintes
-TFFF|Fort-de-France - Le Lamentin Airport|Le Lamentin, Fort-de-France
+TFFF|Fort-de-France - Le Lamentin Airport|Le Lamentin, Fort-de-France, Martinique
+TFFJ|Gustaf III Airport|St. Jean, Saint Barthélemy
+TFFG|L'Espérance Airport|Grand Case, Saint Martin
 TGPY|Point Salines International Airport|St. George's
 TIST|Cyril E. King Airport|St. Thomas
 TISX|Henry E. Rohlsen International Airport|St. Croix
@@ -7210,6 +7265,7 @@ URWI|Elista Airport|Elista, Russia
 URWW|Gumrak Airport|Volgograd, Russia
 USCC|Balandino Airport|Chelyabinsk, Russia
 USCM|Magnitogorsk Airport|Magnitogorsk, Russia
+USHH|Khanty-Mansiysk Airport|Khanty-Mansi Autonomous Okrug, Russia
 USKK|Kirov Airport|Kirov, Russia
 USMM|Nadym Airport|Nadym, Russia
 USNN|Nizhnevartovsk Airport|Nizhnevartovsk, Russia
@@ -7276,10 +7332,10 @@ UDLS|Stepanavan Airport|Stepanavan, Armenia
 UDSG|Shirak Airport|Gyumri, Armenia
 UDYE|Erebuni Airport|Yerevan, Armenia
 UDYZ|Zvartnots International Airport|Zvartnots (near Yerevan), Armenia
-UGGG|Novo Alexeyevka (Tibilisi International) Airport|Tbilisi, Georgia
 UGKO|Kopitnari Airport|Kutaisi, Georgia
 UGSB|Batumi Airport|Batumi, Georgia
-UGSS|Babushara Airport|Sukhumi, Georgia
+UGSS|Babushara Airport|Sukhumi, Abkhazia
+UGTB|Tbilisi International Airport|Tbilisi, Georgia
 UKBB|Boryspil International Airport|Boryspil (near Kiev), Ukraine
 UKBC|Bila Tserkva, Ukraine|
 UKBF|Konotop, Ukraine|
@@ -7301,14 +7357,12 @@ UKFI|Saky, Ukraine|
 UKFK|Kerch Airport|Kerch, Ukraine
 UKFV|Eupatoria, Ukraine|
 UKFW|Zavodske Airfield|Simferopol, Ukraine
-UKFY|Dzhankoy, Ukriane|
-UKHD|Kharkiv Airfield|Kharkiv, Ukraine
+UKFY|Dzhankoy, Ukraine|
 UKHE|Petrovske, Ukraine|
 UKHH|Kharkiv International Airport|Kharkiv, Ukraine
 UKHK|Kremenchuk Airfiled|Kremenchuk, Ukraine
 UKHP|Poltava Airport|Poltava, Ukraine
 UKHS|Sumy Airport|Sumy, Ukraine
-UKHW|Chuhuiv, Ukraine|
 UKKA|UkrAviaTrans|Kiev, Ukraine
 UKKD|Drabiv, Ukraine|
 UKKE|Cherkasy Airport|Cherkasy, Ukraine
@@ -7348,7 +7402,7 @@ UMBB|Brest Airport|Brest, Belarus
 UMGG|Gomel Airport|Gomel, Belarus
 UMII|Vostochny Airport|Vitebsk, Belarus
 UMKK|Khrabrovo Airport|Kaliningrad, Russia
-UMMG|Grodno Airport|Obukhovo, Belarus
+UMMG|Hrodno Airport|Obukhovo, Belarus
 UMMS|Minsk International Airport|Minsk, Belarus
 UMMM|Minsk-1|Minsk, Belarus
 UMOO|Mogilev Airport|Mogilev, Belarus
@@ -7360,6 +7414,9 @@ UTAV|Turkmenabat Airport|Turkmenabat (Chardzhou), Turkmenistan
 UTDD|Dushanbe Airport|Dushanbe, Tajikistan
 UTDL|Khudzhand Airport|Khudzhand, Tajikistan
 UTDO|Oktyabrsky Airport|Oktyabrsky, Tajikistan
+UTOD|Khorog Airport|Khorog, Tajikistan
+UTDK|Kulob Airport|Kulyab, Tajikistan
+UTDT|Qurghonteppa International Airport|Kurgan Tyube, Tajikistan
 UTKA|Andizhan Airport|Andizhan, Uzbekistan
 UTKF|Fergana Airport|Fergana, Uzbekistan
 UTKN|Namangan Airport|Namangan, Uzbekistan
@@ -7537,6 +7594,7 @@ VDKT|Kratie Airport|Kratie
 VDPP|Phnom Penh International Airport (Pochentong International)|Phnom Penh
 VDSR|Angkor International Airport|Siem Reap
 VDST|Stung Treng Airport|Stung Treng
+VDSV|Sihanoukville International Airport|Sihanoukville
 VGBR|Barisal Airport|Barisal
 VGCB|Cox's Bazar Airport|Cox's Bazar
 VGCM|Comilla Airport|Comilla
@@ -7551,6 +7609,7 @@ VGSY|Osmani International Airport|Sylhet
 VGTJ|Tejgaon Airport|Dhaka
 VGZR|Zia International Airport|Dhaka
 VHHH|Hong Kong International Airport|Chek Lap Kok
+VHHX|Kai Tak Airport (closed 1998)|Kowloon
 VHSK|Shek Kong Airfield|Shek Kong
 VLAO|Vientiane Airport|Vientiane
 VLAP|Attopeu Airport|Attopeu
@@ -7632,7 +7691,7 @@ VTCH|Mae Hong Son Airport|Mae Hong Son
 VTCL|Lampang Airport|Lampang
 VTCM|Ban Thi Airport (Lanna Airfield)|Chiang Mai
 VTCN|Nan Airport|Nan
-VTCO|Lampoon Airport|Lampoon
+VTCO|Lamphun Airport|Lamphun
 VTCP|Phrae Airport|Phrae
 VTCR|Chiang Rai Airport|Chiang Rai
 VTCS|Mae Sariang Airport|Mae Sariang
@@ -7695,19 +7754,22 @@ VVRG|Rach Gia Airport|Rach Gia
 VVTH|Dong Tac Airport|Tuy Hoa
 VVTS|Tan Son Nhat International Airport|Ho Chi Minh City
 VVVH|Vinh Airport|Vinh
+VYBG|Nyaung U Airport|Bagan
+VYBM|Banmaw Airport|Bhamo
 VYDW|Dawei Airport|Dawei
 VYGW|Gwa Airport|Gwa
 VYHH|Heho Airport|Heho
 VYKG|Kengtung Airport|Kengtung
 VYKI|Khamti Airport|Khamti
 VYKP|Kyaukpyu Airport|Kyaukpyu
-VYKT|Kawthoung Airport|Kawthoung
+VYKT|Kawthaung Airport|Kawthoung
 VYKU|Kyauktu Airport|Kyauktu
 VYLK|Loikaw Airport|Loikaw
 VYLS|Lashio Airport|Lashio
-VYMD|Mandalay Airport|Mandalay
+VYMD|Mandalay International Airport|Mandalay
 VYME|Myeik Airport|Myeik
 VYMK|Myitkyina Airport|Myitkyina
+VYMM|Mawlamyaing Airport|Mawlamyaing
 VYMN|Manaung Airport|Manaung
 VYMO|Momeik Airport|Momeik
 VYMS|Monghsat Airport|Monghsat
@@ -7715,8 +7777,9 @@ VYMT|Mong-Tong Airport|Mong-Tong
 VYNS|Namsang Airport|Namsang
 VYNT|Namtu Airport|Namtu
 VYPK|Pauk Airport|Pauk
+VYPN|Pathein Airport|Pathein
 VYPT|Putao Airport|Putao
-VYPU|Pakhokku Airport|Pakhokku
+VYPU|Pakokku Airport|Pakokku
 VYSW|Sittwe Airport|Sittwe
 VYTD|Thandwe Airport|Thandwe
 VYTL|Tachilek Airport|Tachilek
@@ -7796,7 +7859,7 @@ WIHH|Halim Perdanakusuma International Airport|Jakarta
 WIHL|Tunggul Wulung Airport|Cilacap, Central Java
 WIIC|Cirebon Airport|Cirebon, West Java
 WIII|Soekarno-Hatta International Airport|Cengkareng, Banten (near Jakarta)
-WIIJ|Adisucipto International Airport (Adisutjipto Airport) (Joensuu Airport)|Yogyakarta Special Region
+WIIJ|Adisucipto International Airport|Yogyakarta, DI Yogyakarta
 WIIP|Pondok Cabe Airport|Jakarta
 WIIS|Achmad Yani Airport|Semarang, Central Java
 WIIT|Radin Inten II Airport (Branti Airport)|Bandar Lampung, Lampung
@@ -8014,6 +8077,7 @@ YCDE|Cobden Airport|Cobden, Victoria
 YCDU|Ceduna Airport|Ceduna, South Australia
 YCEE|Cleve Airport|Cleve, South Australia
 YCEM|Coldstream Airport|Coldstream, Victoria
+YCFS|Coffs Harbour Airport|Coffs Harbour, New South Wales
 YCIN|Curtin Airport / RAAF Base Curtin (joint use)|Derby, Western Australia
 YCKI|Croker Island Airport|Croker Island, Northern Territory
 YCKN|Cooktown Airport|Cooktown, Queensland
@@ -8169,7 +8233,6 @@ YROM|Roma Airport|Roma, Queensland
 YRTI|Rottnest Island Airport|Rottnest Island, Western Australia
 YSBK|Bankstown Airport|Bankstown, New South Wales
 YSCB|Canberra International Airport|Canberra, Australian Capital Territory
-YSCH|Coffs Harbour Airport|Coffs Harbour, New South Wales
 YSCN|Camden Airport|Camden, New South Wales
 YSDU|Dubbo Airport|Dubbo, New South Wales
 YSGE|Saint George Airport|Saint George, Queensland
@@ -8283,7 +8346,7 @@ ZSBB|Bengbu Airport|Bengbu, Anhui
 ZSCG|Changzhou Airport|Changzhou, Jiangsu
 ZSCN|Nanchang International Airport|Nanchang, Jiangxi
 ZSFY|Fuyang Airport|Fuyang, Anhui
-ZSFZ|Fuzhou Chengle International Airport|Fuzhou, Fujian
+ZSFZ|Fuzhou Changle International Airport|Fuzhou, Fujian
 ZSGZ|Ganzhou Airport|Ganzhou, Jiangxi
 ZSHC|Hangzhou Xiaoshan International Airport|Hangzhou, Zhejiang
 ZSJD|Jingdezhen Airport|Jingdezhen, Jiangxi
@@ -8308,6 +8371,7 @@ ZSXZ|Xuzhou Airport|Xuzhou, Jiangsu
 ZSYT|Yantai Laishan Airport|Yantai, Shandong
 ZSYW|Yiwu Airport|Yiwu, Zhejiang
 ZSZS|Zhoushan Airport|Zhoushan, Zhejiang
+ZUBD|Qamdo Bangda Airport|Bangda, Tibet Autonomous Region
 ZUCK|Chongqing Jiangbei International Airport|Chongqing
 ZUDX|Dachuan Airport|Dazhou, Sichuan
 ZUGY|Guiyang Longdongbao Airport|Guiyang, Guizhou
