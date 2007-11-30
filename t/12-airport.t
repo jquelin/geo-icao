@@ -27,8 +27,8 @@ is( scalar @codes, 26, 'all_airport_codes() - rewinding' );
 # - limiting to a region
 @codes = all_airport_codes('H');
 %start=(); $start{ substr $_,0, 1 }++ foreach @codes;
-is( scalar @codes, 175, 'all_airport_codes() - limiting to a region' );
-is( $start{H},     175, 'all_airport_codes() - limiting to a region' );
+is( scalar @codes, 177, 'all_airport_codes() - limiting to a region' );
+is( $start{H},     177, 'all_airport_codes() - limiting to a region' );
 # - error handling
 eval { @codes = all_airport_codes('I'); };
 like( $@, qr/^'I' is not a valid region or country code/,
