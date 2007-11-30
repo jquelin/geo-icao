@@ -12,6 +12,9 @@ High-level changelog
 Low-level changelog
 ===================
 
+0.36 Fri Nov 30 09:02:10 CET 2007
+ - updated list of airport codes from wikipedia
+
 0.35 Mon Nov 26 13:09:35 CET 2007
  - kwalitee/cpants release
 
