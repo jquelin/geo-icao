@@ -11,9 +11,9 @@ use Test::More tests => 22;
 # all_country_codes()
 my @codes = all_country_codes();
 my %length = (); $length{ length $_ }++ foreach @codes;
-is( scalar @codes, 234, 'all_country_codes() returns 234 codes' );
+is( scalar @codes, 237, 'all_country_codes() returns 234 codes' );
 is( $length{1},    5,   'all_country_codes() returns 5 countries with 1-letter code' );
-is( $length{2},    229, 'all_country_codes() returns countries with 2-letters codes' );
+is( $length{2},    232, 'all_country_codes() returns countries with 2-letters codes' );
 #- limiting to a region
 @codes = all_country_codes('H');
 is( scalar @codes, 13, 'all_country_codes() - limiting to a region' );
@@ -25,7 +25,7 @@ like( $@, qr/^'I' is not a valid region code/,
 #--
 # all_country_names()
 my @names = all_country_names();
-is( scalar @names, 226, 'all_country_names() returns 226 names' );
+is( scalar @names, 227, 'all_country_names() returns 226 names' );
 # Brazil=5, Indonesia=4, Djibouti=2
 # ==> 4+3+1=8 duplicated names not counted
 @names = all_country_names('H');
@@ -55,7 +55,7 @@ is( $codes[0],     'LF', 'country2code() basic usage' );
 is( scalar @codes, 1,    'country2code() - single-letter usage' );
 is( $codes[0],     'C',  'country2code() - single-letter usage' );
 @codes = sort( +country2code('Brazil') ); # '+' desambiguates perl56 parsing
-is( scalar @codes, 5,    'country2code() - multiple-codes usage' );
+is( scalar @codes, 7,    'country2code() - multiple-codes usage' );
 is( $codes[0],     'SB', 'country2code() - multiple-codes usage' );
 is( country2code('Unknown'), undef, 'country2code() - unknown name' );
 
