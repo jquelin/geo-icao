@@ -1,16 +1,13 @@
 Revision history for Geo-ICAO
 
-High-level changelog
-====================
+{{$NEXT}}
 
-0.3x  airport development
-0.2x  country development
-0.1x  region development
-0.0x  initial releases & infrastructure
+1.093320  2009-11-28 17:15:58 Europe/Paris
+ - module is stable, moving to 1.yydddn version scheme
+ - updated list of airport codes from wikipedia
+ - migrated to dist-zilla (transparent for end user)
 
-
-Low-level changelog
-===================
+**
 
 0.36 Fri Nov 30 09:02:10 CET 2007
  - updated list of airport codes from wikipedia
