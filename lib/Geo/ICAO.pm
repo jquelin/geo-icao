@@ -1,7 +1,7 @@
-package Geo::ICAO;
-
 use warnings;
 use strict;
+
+package Geo::ICAO;
 
 use Carp;
 use List::Util qw[ first ];
