@@ -19,8 +19,8 @@ is( scalar @codes, 26, 'all_airport_codes() - rewinding' );
 # - limiting to a region
 @codes = all_airport_codes('H');
 %start=(); $start{ substr $_,0, 1 }++ foreach @codes;
-is( scalar @codes, 177, 'all_airport_codes() - limiting to a region' );
-is( $start{H},     177, 'all_airport_codes() - limiting to a region' );
+is( scalar @codes, 184, 'all_airport_codes() - limiting to a region' );
+is( $start{H},     184, 'all_airport_codes() - limiting to a region' );
 # - error handling
 eval { @codes = all_airport_codes('I'); };
 like( $@, qr/^'I' is not a valid region or country code/,
@@ -42,8 +42,8 @@ is( scalar @codes, 26, 'all_airport_names() - rewinding' );
 # - limiting to a region
 @names = all_airport_names('B');
 %start=(); $start{ substr airport2code($_), 0, 1 }++ foreach @names;
-is( scalar @names, 86, 'all_airport_names() - limiting to a region' );
-is( $start{B},     86, 'all_airport_names() - limiting to a region' );
+is( scalar @names, 87, 'all_airport_names() - limiting to a region' );
+is( $start{B},     87, 'all_airport_names() - limiting to a region' );
 # - error handling
 eval { @codes = all_airport_names('I'); };
 like( $@, qr/^'I' is not a valid region or country code/,
@@ -56,7 +56,7 @@ like( $@, qr/^'SZ' is not a valid region or country code/,
 #--
 # code2airport()
 is  ( code2airport('LFLY'), 'Lyon Bron Airport', 'code2airport() basic usage' );
-like( code2airport('LFLL'), qr/^Lyon Saint-Exu/, 'code2airport() - rewinding' );
+like( code2airport('LFLL'), qr/^Lyon-Saint Exu/, 'code2airport() - rewinding' );
 is  ( code2airport('IIII'), undef,               'code2airport() - unknown code' );
 my @details = code2airport('LFLY');
 is( scalar @details, 2,      'code2airport() - list context' );
