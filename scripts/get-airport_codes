@@ -3,17 +3,17 @@
 use strict;
 use warnings;
 
-use charnames qw[ :full ];
-use Encode;
+use charnames qw{ :full };
+use Encode    qw{ decode encode };
 use Readonly;
 
 # fetch data from wikipedia
-Readonly my $URL => 'http://en.wikipedia.org/wiki/List_of_airports_by_ICAO_code:_';
+Readonly my $URL  => 'http://en.wikipedia.org/wiki/List_of_airports_by_ICAO_code:_';
+Readonly my $DASH => "\N{EN DASH}";
 
 foreach my $letter ( 'A' .. 'Z' ) {
     my $url = $URL . $letter;
-    my @lines = qx[ lynx -dump -nolist -width=500 $url  ];
-    #my @lines = qx[cat codes];
+    my @lines  = qx{ lynx -dump -nolist -width=500 $url };
 
     foreach my $line ( map {decode('utf-8',$_)} @lines ) {
         chomp $line;
@@ -22,9 +22,9 @@ foreach my $letter ( 'A' .. 'Z' ) {
             \s+ \*                # a litteral *
             \s+ $letter[A-Z]{3}   # the airport code
             \s+                   # some space just after
-            .* \N{EN DASH}        # and a dash
+            .* $DASH              # and a dash
             /x;
-        my ($code, $name, $location) = split /\s*\N{EN DASH}\s*/, $line;
+        my ($code, $name, $location) = split /\s*$DASH\s*/, $line;
         $code =~ s/^\s*\*\s*//;
         $code =~ s/\s*\([^)]+\)\s*//;
         $location ||= '';
