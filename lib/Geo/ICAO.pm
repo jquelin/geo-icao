@@ -6,8 +6,6 @@ use strict;
 use Carp;
 use List::Util qw[ first ];
 
-our $VERSION = '0.36';
-
 # exporting.
 use base qw[ Exporter ];
 our (@EXPORT_OK, %EXPORT_TAGS);
