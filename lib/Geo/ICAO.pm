@@ -2,6 +2,7 @@ use warnings;
 use strict;
 
 package Geo::ICAO;
+# ABSTRACT: Airport and ICAO codes lookup
 
 use Carp;
 use List::Util qw[ first ];
@@ -425,11 +426,6 @@ sub code2airport {
 
 1;
 #__END__
-
-=head1 NAME
-
-Geo::ICAO - Airport and ICAO codes lookup
-
 
 
 =head1 SYNOPSIS
