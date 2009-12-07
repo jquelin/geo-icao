@@ -2,6 +2,9 @@ Revision history for Geo-ICAO
 
 {{$NEXT}}
 
+1.093410  2009-12-07 09:06:31 Europe/Paris
+ - removing kwalitee test (need to work on it)
+
 1.093320  2009-11-28 17:15:58 Europe/Paris
  - module is stable, moving to 1.yydddn version scheme
  - updated list of airport codes from wikipedia
