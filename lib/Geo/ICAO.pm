@@ -346,8 +346,8 @@ __END__
 
     my @country_codes = all_country_codes();
     my @country_names = all_country_names();
-    my @codes   = country2code('Brazil');
-    my $region  = code2country('SB');
+    my @codes  = country2code('Brazil');
+    my $region = code2country('SB');
 
     my @airport_codes = all_airport_codes('B');
     my @airport_names = all_airport_names('B');
