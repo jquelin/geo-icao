@@ -7,25 +7,25 @@ package Geo::ICAO;
 
 use Carp;
 use File::ShareDir qw{ dist_dir };
-use List::Util     qw{ first    };
+use List::Util     qw{ first };
 use Path::Class;
 use Readonly;
+use Sub::Exporter  qw{ setup_exporter };
 
 
-# exporting.
-use base qw[ Exporter ];
-our (@EXPORT_OK, %EXPORT_TAGS);
+# -- exporting
 {
-    my @regions   = qw[ all_region_codes all_region_names region2code code2region ];
-    my @countries = qw[ all_country_codes all_country_names country2code code2country ];
-    my @airports  = qw[ all_airport_codes all_airport_names airport2code code2airport ];
-    @EXPORT_OK = (@regions, @countries, @airports);
-    %EXPORT_TAGS = (
-        region  => \@regions,
-        country => \@countries,
-        airport => \@airports,
-        all     => \@EXPORT_OK,
-    );
+    my @regions   = qw{ all_region_codes  all_region_names  region2code  code2region  };
+    my @countries = qw{ all_country_codes all_country_names country2code code2country };
+    my @airports  = qw{ all_airport_codes all_airport_names airport2code code2airport };
+    setup_exporter( {
+        exports => [ @regions, @countries, @airports ],
+        groups  => {
+            region  => \@regions,
+            country => \@countries,
+            airport => \@airports,
+        }
+    } );
 }
 
 
