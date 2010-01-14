@@ -10,7 +10,6 @@ Readonly my $URL => 'http://en.wikipedia.org/wiki/ICAO_airport_code';
 my @lines = qx[ lynx -dump -nolist -width=130 $URL ];
 
 # parse data and extract country codes
-print q{Readonly my %CODE2COUNTRY => (} . "\n";
 foreach my $line ( @lines ) {
     next unless $line =~ /\A \s* Prefix \s+ code \s+ Country \s* \z/x
              .. $line =~ /\A \s* \z/x;                          # trash everything but the table
@@ -22,9 +21,8 @@ foreach my $line ( @lines ) {
     $country =~ s/ \(except [^)]+\)//;
     $country =~ s/, including .*//;
 
-    printf "    %-4s => q{$country},\n", qq{'$code'};
+    print "$code|$country\n";
 }
-print qq{);\n};
 
 exit;
 
@@ -37,11 +35,7 @@ get-code2country - fetch ICAO country code from wikipedia
 
 =head1 SYNOPSIS
 
-    using vi to update Geo::ICAO...
-    $ vi lib/Geo/ICAO.pm
-        /CODE2COUNTRY
-        0d}
-        :r!scripts/get-code2country
+    $ ./scripts/get-code2country >sh
 
 
 =head1 DESCRIPTION
