@@ -78,9 +78,9 @@ my %country2code;
 }
 
 
-#--
-# subs handling regions.
+#-- public subs
 
+# subs handling regions.
 
 =fregion my @codes = all_region_codes();
 
@@ -120,9 +120,7 @@ sub code2region {
 }
 
 
-#--
 # subs handling countries.
-
 
 =fcountry my @codes = all_country_codes( [$code] );
 
@@ -195,9 +193,7 @@ sub code2country {
 }
 
 
-#--
 # subs handling airports
-
 
 =fairport my @codes = all_airport_codes( $code );
 
@@ -308,7 +304,7 @@ sub code2airport {
 }
 
 
-# --
+# -- private subs
 
 sub _get_code2country {
     my %data;
@@ -331,7 +327,7 @@ __END__
 
 =head1 SYNOPSIS
 
-    use Geo::ICAO qw[ :all ];
+    use Geo::ICAO qw{ :all };
 
     my @region_codes = all_region_codes();
     my @region_names = all_region_names();
@@ -352,7 +348,17 @@ __END__
 
 =head1 DESCRIPTION
 
-Nothing is exported by default. But all the functions described below
+The International Civil Aviation Organization (ICAO), a major agency of
+the United Nations, codifies the principles and techniques of
+international air navigation and fosters the planning and development of
+international air transport to ensure safe and orderly growth. Among the
+standards defined by ICAO is an airport code system (not to be confused
+with IATA airport codes), using 4-letter for this.
+
+This module provides easy access to the list of airport ICAO codes, with
+mapping of those codes with airport names, country and region codes.
+
+Nothing is exported by default, but all the functions described below
 are exportable: it's up to you to decide what you want to import.
 
 Note that the keyword C<:all> will import everything, and each category
