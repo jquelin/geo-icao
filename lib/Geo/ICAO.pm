@@ -306,9 +306,15 @@ sub code2airport {
 
 # -- private subs
 
+#
+# my %data = _get_code2country();
+#
+# read the country.data file shipped in the share/ directory, parse and
+# return it as a hash. the key is the country code, the value is the
+# country name.
+#
 sub _get_code2country {
     my %data;
-
     my $file = file( dist_dir('Geo-ICAO'), 'country.data' );
     open my $fh, '<', $file or die "can't open $file: $!";
     while ( my $line = <$fh>) {
