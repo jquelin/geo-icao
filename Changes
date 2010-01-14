@@ -2,6 +2,12 @@ Revision history for Geo-ICAO
 
 {{$NEXT}}
 
+1.100140  2010-01-14 20:29:53 Europe/Paris
+ - requiring perl 5.8.x
+ - updated list of airport codes from wikipedia
+ - using file::sharedir to put data in its own file
+ - using sub::exporter instead of exporter
+
 1.093410  2009-12-07 09:06:31 Europe/Paris
  - removing kwalitee test (need to work on it)
 
