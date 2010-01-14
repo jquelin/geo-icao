@@ -369,7 +369,8 @@ This module provides easy access to the list of airport ICAO codes, with
 mapping of those codes with airport names, country and region codes.
 
 Nothing is exported by default, but all the functions described below
-are exportable: it's up to you to decide what you want to import.
+are exportable: it's up to you to decide what you want to import. Export
+is done with L<Sub::Exporter>, so you can play all kind of tricks.
 
 Note that the keyword C<:all> will import everything, and each category
 of function provides its own keyword. See below.
