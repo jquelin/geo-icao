@@ -35,7 +35,7 @@ our (@EXPORT_OK, %EXPORT_TAGS);
 # - vars defined statically
 
 # list of ICAO codes for the regions with their name.
-my %code2region = (
+Readonly my %code2region => (
     A => 'Western South Pacific',
     B => 'Iceland/Greenland',
     C => 'Canada',
