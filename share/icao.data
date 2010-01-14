@@ -48,20 +48,19 @@ AYKM|Kerema Airport|Kerema
 AYKT|Kieta Aropa Airport|Kieta
 AYKV|Kavieng Airport|Kavieng
 AYKY|Kunaye Airport|Kunaye
-AYLA|Lae Nadzab Airport|Lae
+AYLA|Lae Airfield|Lae
 AYMD|Madang Airport|Madang
 AYMH|Mount Hagen Airport|Mount Hagen
-AYMM|Misima Airport|Misima
 AYMN|Mendi Airport|Mendi
 AYMO|Momote Airport|Manus Island
 AYMR|Moro Airport|Moro
 AYMS|Misima Airport|Misima
-AYNZ|Nadzab Airport|Manguna
+AYNZ|Lae Nadzab Airport|Lae / Nadzab
 AYPY|Port Moresby/Jackson International Airport|Port Moresby
-AYRB|Rabaul Airport|Rabaul
+AYRB|Rabaul Airport (old) (destroyed 1994)|Rabaul, New Britain
 AYTA|Tari Airport|Tari
 AYTB|Tabubil Airport|Tabubil
-AYTK|Tokua Airport|Tokua
+AYTK|Rabaul Airport (Tokua Airport)|Rabaul / Tokua
 AYVN|Vanimo Airport|Vanimo
 AYWD|Wapenamanda Airport|Wapenamanda
 AYWK|Wewak International Airport|Wewak
@@ -201,7 +200,7 @@ CYCR|Cross Lake (Charlie Sinclair Memorial) Airport|Cross Lake, Manitoba
 CYCS|Chesterfield Inlet Airport|Chesterfield Inlet, Nunavut
 CYCT|Coronation Airport|Coronation, Alberta
 CYCW|Chilliwack Airport|Chilliwack, British Columbia
-CYCX|Gagetown Heliport|Oromocto (CFB Gagetown), New Brunswick
+CYCX|Gagetown Heliport|Oromocto, New Brunswick (CFB Gagetown)
 CYCY|Clyde River Airport|Clyde River, Nunavut
 CYCZ|Fairmont Hot Springs Airport|Fairmont Hot Springs, British Columbia
 CYDA|Dawson City Airport|Dawson City, Yukon
@@ -325,7 +324,7 @@ CYMW|Maniwaki Airport|Maniwaki, Quebec
 CYMX|Montréal-Mirabel International Airport (Montréal International (Mirabel) Airport)|Montreal, Quebec
 CYNA|Natashquan Airport|Natashquan, Quebec
 CYNC|Wemindji Airport|Wemindji, Quebec
-CYND|Gatineau-Ottawa Executive Airport (Ottawa/Gatineau Airport)|Gatineau, Quebec
+CYND|Gatineau-Ottawa Executive Airport (Ottawa/Gatineau Airport)|atineau, Quebec
 CYNE|Norway House Airport|Norway House, Manitoba
 CYNH|Hudson's Hope Airport|Hudson's Hope, British Columbia
 CYNJ|Langley Regional Airport (Langley Airport)|Langley, British Columbia
@@ -342,7 +341,7 @@ CYOO|Oshawa Airport|Oshawa, Ontario
 CYOP|Rainbow Lake Airport|Rainbow Lake, Alberta
 CYOS|Owen Sound/Billy Bishop Regional Airport (Billy Bishop Regional Airport)|Owen Sound, Ontario
 CYOW|Ottawa Macdonald-Cartier International Airport (Macdonald-Cartier International Airport)|Ottawa, Ontario
-CYOY|Valcartier (W/C J.H.L. (Joe) Lecomte) Heliport|Valcartier, Quebec, Quebec
+CYOY|Valcartier (W/C J.H.L. (Joe) Lecomte) Heliport|Valcartier, Quebec
 CYPA|Prince Albert (Glass Field) Airport|Prince Albert, Saskatchewan
 CYPC|Paulatuk Airport|Paulatuk, Northwest Territories
 CYPD|Port Hawkesbury Airport|Port Hawkesbury, Nova Scotia
@@ -746,6 +745,7 @@ EBZR|Zoersel-Oostmalle Airfield - Zoersel / Oostmalle|
 EBZW|Zwartberg Airport|Genk
 EDAC|Leipzig-Altenburg Airport|Altenburg/Leipzig
 EDAD|Dessau Airport|Dessau
+EDAP|Cottbus-Neuhausen Airport|Cottbus
 EDAX|Lärz/Rechlin Airport|Rechlin
 EDCD|Cottbus-Drewitz Airport|Cottbus
 EDCI|Klix Airfield - Bautzen|
@@ -819,6 +819,7 @@ ETHL|Laupheim Army Base|Laupheim
 ETHM|Mendig Army Base|Niedermendig
 ETHR|Roth Army Base|Roth
 ETHS|Fassberg Army Base|Fassberg
+ETHT|Cottbus Air Base|Cottbus
 ETMN|Nordholz Naval Air Station|Nordholz
 ETND|Diepholz Air Base|Diepholz
 ETNG|NATO Air Base Geilenkirchen|Geilenkirchen
@@ -1272,7 +1273,7 @@ ENOP|Oppdal Airport, Fagerhaug|Oppdal, Sør-Trøndelag
 ENOV|Ørsta-Volda Airport, Hovden|Ørsta/Volda, Møre og Romsdal
 ENRA|Mo i Rana Airport, Røssvoll|Mo i Rana, Nordland
 ENRI|Ringebu Airport, Frya|Ringebu, Oppland
-ENRK|Rakkestad Airport, Åstorp|Rakkestad, Østfold
+ENRK|Rakkestad Airport|Rakkestad, Østfold
 ENRM|Rørvik Airport, Ryum|Rørvik, Nord-Trøndelag
 ENRO|Røros Airport|Røros, Sør-Trøndelag
 ENRS|Røst Airport|Røst, Nordland
@@ -1547,6 +1548,7 @@ FAKU|Johan Pienaar Airport|Kuruman
 FAKZ|Kleinsee Airport|Kleinsee
 FALA|Lanseria Airport|Lanseria
 FALC|Finsch Mine Airport|Lime Acres
+FALE|King Shaka International Airport|Durban
 FALK|Lusikisiki Airport|Lusikisiki
 FALM|AFB Makhado, SAAF|Makhado
 FALW|AFB Langebaanweg SAAF|Langebaan
@@ -2303,7 +2305,9 @@ HTSY|Shinyanga Airport|Shinyanga
 HTTB|Tabora Airport|Tabora
 HTTG|Tanga Airport|Tanga
 HTZA|Zanzibar Airport|Zanzibar
+HUAJ|Adjumani Airport|Adjumani
 HUAR|Arua Airport|Arua
+HUBU|Bundibugyo Airport|Bundibugyo
 HUEN|Entebbe International Airport|Entebbe (near Kampala)
 HUGU|Gulu Airport|Gulu
 HUJI|Jinja Airport|Jinja
@@ -2312,6 +2316,7 @@ HUKF|Kabalega Falls Airport|Kabalega Falls
 HUKS|Kasese Airport|Kasese
 HUMA|Mbarara Airport|Mbarara
 HUMI|Masindi Airport|Masindi
+HUPA|Pakuba Airport|Pakuba
 HUSO|Soroti Airport|Soroti
 HUTO|Tororo Airport|Tororo
 KAAA|Logan County Airport|Lincoln, Illinois
@@ -4022,7 +4027,7 @@ LEAL|Alicante Airport (formerly El Altet Airport)|Alicante / Benidorm / Costa Bl
 LEAM|Almería International Airport|Almería
 LEAS|Asturias Airport|Aviles / Gijon / Oviedo (Asturias)
 LEBA|Córdoba Airport|Córdoba Andalucia
-LEBB|Bilbao Airport|Bilbao, Viscaya
+LEBB|Bilbao Airport|Bilbao, Biscay
 LEBG|Burgos Airport|Burgos, Spain
 LEBL|Barcelona International Airport|Barcelona / El Prat de Llobregat
 LEBZ|Badajoz Airport|Badajoz
@@ -4165,7 +4170,7 @@ LFEL|Le Blanc Airport|Le Blanc
 LFEM|Montargis Vimory Airport|Montargis
 LFEN|Tours Sorigny Airport|Tours
 LFEO|Saint-Servan Airport|Saint-Malo
-LFEP|Pouilly Maconge Airport|Pouilly
+LFEP|Pouilly Maconge Airport|Pouilly-en-Auxois
 LFEQ|Quiberon Airport|Quiberon
 LFER|Redon Bains-sur-Oust Airport|Redon
 LFES|Guiscriff Scaer Airport|Guiscriff
@@ -4235,15 +4240,15 @@ LFHI|Morestel Airport|Morestel
 LFHJ|Lyon Corbas Airport|Lyon
 LFHL|Langogne Lesperon Airport|Langogne
 LFHM|Megève Airport|Megève
-LFHN|Bellegarde Vouvray Airport|Bellegarde ^[disambiguation needed]
+LFHN|Bellegarde Vouvray Airport|Bellegarde
 LFHO|Aubenas Ardeche Meridionale Airport|Aubenas
-LFHP|Le Puy Loudes Airport|Le Puy
+LFHP|Le Puy Loudes Airport|Le Puy-en-Velay
 LFHQ|Saint-Flour Coltines Airport|Saint-Flour
 LFHR|Brioude Beaumont Airport|Brioude
 LFHS|Bourg Ceyzeriat Airport|Bourg-en-Bresse
 LFHT|Ambert Le Poyet Airport|Ambert
 LFHU|LL'Alpe d'Huez Airport|L'Alpe d'Huez
-LFHV|Villefranche Tarare Airport|Villefranche
+LFHV|Villefranche Tarare Airport|Tarare
 LFHW|Belleville Villie Morgon Airport|Belleville, Rhône
 LFHX|Lapalisse Perigny Airport|Lapalisse
 LFHY|Moulins Montbeugny Airport|Moulins
@@ -4251,7 +4256,7 @@ LFHZ|Sallanches Mont-Blanc Airport|Sallanches
 LFIB|Belvès Saint-Pardoux Airport|Belvès
 LFID|Condom Valence-sur-Baise Airport|Condom
 LFIF|SSaint-Affrique Belmont Airport|Saint-Affrique
-LFIG|Cassagnes Beghones Airport|Cassagnes
+LFIG|Cassagnes Beghones Airport|Cassagnes-Bégonhès
 LFIH|Chalais Airport|Chalais
 LFIK|Ribérac Saint-Aulaye Airport|Ribérac
 LFIL|Rion-des-Landes Airport|Rion-des-Landes
@@ -4341,7 +4346,7 @@ LFMU|Béziers-Agde-Vias Airport|Béziers
 LFMV|Avignon Caumont Airport|Avignon
 LFMW|Castelnaudary Villeneuve Airport|Castelnaudary
 LFMX|Chateau-Arnoux Saint-Auban Airport|Chateau-Arnoux
-LFMZ|Lezignan Corbieres Airport|Lezignan
+LFMZ|Lezignan Corbieres Airport|Lézignan-Corbières
 LFNA|Gap Tallard Airport|Gap
 LFNB|Mende Brenoux Airport|Mende
 LFNC|Mont-Dauphin Saint-Crepin Airport|Mont-Dauphin
@@ -4403,9 +4408,9 @@ LFPM|Melun-Villaroche Airport|Melun
 LFPN|Toussus-le-Noble Airport|Toussus-le-Noble
 LFPO|Paris Orly Airport|Orly (near Paris)
 LFPP|Le Plessis-Belleville Airport|Le Plessis-Belleville
-LFPQ|Fontenay Tresigny Airport|Fontenay
+LFPQ|Fontenay Tresigny Airport|Fontenay-Trésigny
 LFPT|Pontoise - Cormeilles-en-Vexin Airport|Pontoise
-LFPU|Moret Episy Airport|Moret
+LFPU|Moret Episy Airport|Moret-sur-Loing
 LFPV|Vélizy - Villacoublay Air Base|Villacoublay
 LFPX|Chavenay Villepreux Airport|Chavenay
 LFPY|Brétigny-sur-Orge Air Base|Bretigny-sur-Orge
@@ -4419,7 +4424,7 @@ LFQG|Nevers Fourchambault Airport|Nevers
 LFQH|Châtillon-sur-Seine Airport|Châtillon-sur-Seine
 LFQI|Cambrai Epinoy Airport|Cambrai
 LFQJ|Maubeuge Elesmes Airport|Maubeuge
-LFQK|Chalons Ecury-sur-Coole Airport|Chalons
+LFQK|Chalons Ecury-sur-Coole Airport|Châlons-en-Champagne
 LFQL|Lens Benifontaine Airport|Lens
 LFQM|Besançon La Veze Airport|Besançon
 LFQN|Saint-Omer Wizernes Airport|Saint-Omer
@@ -4486,7 +4491,7 @@ LFTR|Toulon-St. Mandrier Heliport|Saint-Mandrier-sur-Mer
 LFTU|Frejus Saint-Raphael Airport|Frejus
 LFTW|Nîmes-Arles-Camargue Airport|Nîmes
 LFTZ|La Mole Airport|La Mole
-LFXA|Ambérieu-en-Bugey Air Base|Amberieu
+LFXA|Ambérieu-en-Bugey Air Base|Ambérieu-en-Bugey
 LFXB|Saintes Thenac Airport|Saintes
 LFXM|Mourmelon Airport|Mourmelon
 LFXN|Narbonne Airport|Narbonne
@@ -4590,7 +4595,7 @@ LIED|Decimomannu Air Base|Decimomannu, Cagliari
 LIEE|Cagliari - Elmas Airport|Cagliari
 LIEO|Olbia - Costa Smeralda Airport|Olbia
 LIER|Oristano-Fenosu Airport|Oristano
-LIET|Tortolì Airport|Tortoli
+LIET|Tortolì Airport|Tortolì
 LILE|Cerrione Airport|Biella
 LILG|Vergiate Airport|Vergiate, Varese
 LILH|Rivanazzano Airport|Voghera, Pavia
@@ -4653,9 +4658,8 @@ LIRZ|San Egidio Airport|Perugia
 LJAJ|Ajdovščina Airport|Ajdovščina
 LJBL|Lesce-Bled Airport|Lesce
 LJBO|Bovec Airport|Bovec
-LJCE|Cerklje ob Krki Airbase|Cerklje ob Krki, Brežice
+LJCE|Cerklje ob Krki Air Base|Cerklje ob Krki, Brežice
 LJCL|Celje Airport|Celje (Levec)
-LJLA|Ljubljana ACC-FIR-AFTN Airport|Ljubljana
 LJLJ|Ljubljana Jože Pučnik Airport (Brnik Airport)|Ljubljana
 LJMB|Maribor Edvard Rusjan Airport|Maribor
 LJMS|Murska Sobota Airport|Murska Sobota (Rakičan)
@@ -4814,7 +4818,7 @@ LPGR|Graciosa Airport|Graciosa Island / Santa Cruz da Graciosa
 LPHR|Horta Airport|Horta, Faial Island
 LPLA|Lajes Air Base Int.|Terceira Island /Praia da Vitoria /Angra do Heroísmo area
 LPPD|Ponta Delgada João Paulo II Airport ,formerlyNordela Int.|Ponta Delgada, São Miguel Island
-LPPI|Pico Airport|Pico Island (Madalena,São Roque,Lajes do Pico)
+LPPI|Pico Airport|Pico Island (Madalena,São Roque do Pico,Lajes do Pico)
 LPSJ|São Jorge Airport|São Jorge Island /Velas
 LPMA|Madeira Airport Int. (Funchal Airport)|Funchal, Madeira Island (Santa Cruz) /Funchal area {Madeira Island}
 LPPS|Porto Santo Airport|Porto Santo Island / Vila Baleira {Porto Santo Island}
@@ -4959,6 +4963,7 @@ LTCN|Kahramanmaraş Airport|Kahramanmaraş
 LTCO|Ağrı Airport|Ağrı
 LTCP|Adıyaman Airport|Adıyaman
 LTCR|Mardin Airport|Mardin
+LTCS|Şanlıurfa GAP Airport|Şanlıurfa
 LTFC|Süleyman Demirel Airport|Isparta
 LTFD|Edremit Körfez Airport|Balıkesir
 LTFE|Milas-Bodrum Airport|Milas
@@ -5467,6 +5472,7 @@ NTTO|Hao Airport|Hao Island
 NTTP|Maupiti Airport|Maupiti
 NTTR|Uturoa Airport|Raiatea, Society Islands
 NTUV|Vahitahi Airport|Vahitahi
+NVSA|Mota Lava Airport|Mota Lava
 NVSC|Vanua Lava Island Airport|Sola
 NVSE|Siwo Airport|Émaé
 NVSF|Craig Cove Airport|Craig Cove
@@ -5474,9 +5480,10 @@ NVSG|Longana Airport|Longana
 NVSH|Sara Airport|Sara
 NVSL|Malekoula Island Airport|Lamap
 NVSM|Lamen Bay Airport|Lamen-Bay
-NVSN|Maewo-Naone Airport|Maewo-Naone
+NVSN|Maewo-Naone Airport|Maewo
 NVSO|Lonorore Airport|Lonorore
 NVSP|Norsup Airport|Norsup
+NVSQ|Gaua Airport|Gaua
 NVSR|Redcliff Airport|Redcliff
 NVSS|Santo-Pekoa International Airport|Luganville, Espiritu Santo
 NVST|Tongoa Airport|Tongoa
@@ -5484,6 +5491,7 @@ NVSU|Ulei Airport|Ulei
 NVSV|Valesdir Airport|Valesdir
 NVSW|Walaha Airport|Walaha
 NVSX|South West Bay Airport|South West Bay
+NVVA|Anatom Airport|Anatom
 NVVB|Aniwa Airport|Aniwa
 NVVD|Dillon's Bay Airport|Dillon's Bay
 NVVF|Futuna Airport|Futuna
@@ -5652,7 +5660,7 @@ OAFR|Farah Airport|Farah
 OAFZ|Faizabad Airport|Faizabad
 OAHN|Khwahan Airport|Khwahan
 OAHR|Herat Airport|Herat
-OAIX|Bagram Air Base|Bagram near Charikar
+OAIX|Bagram Airfield|Bagram near Charikar
 OAJL|Jalalabad Airport|Jalalabad
 OAKB|Kabul International Airport|Kabul
 OAKN|Kandahar Airport|Kandahar
@@ -5664,6 +5672,7 @@ OASN|Sheghnan Airport|Sheghnan
 OATN|Tereen Airport|Tereen
 OATQ|Taloqan Airport|Taloqan
 OAUZ|Kunduz Airport|Kunduz
+OAZI|Camp Bastion Airfield|Helmand near Lashkar Gah
 OAZJ|Zaranj Airport|Zaranj
 OBBI|Bahrain International Airport|Manama
 OBBS|Sheik Isa Air Base|
@@ -6661,6 +6670,7 @@ SBVH|Vilhena Airport|Vilhena, Rondônia
 SBVT|Goiabeiras Airport|Vitória, Espírito Santo
 SBWX|Santarém Airport|Santarém, Pará
 SBYS|Campo Fontenelle Airport|Pirassununga, São Paulo
+SDAE|São Pedro Municipal Airport|São Pedro, São Paulo
 SDAG|Angra dos Reis Airport|Angra dos Reis, Rio de Janeiro
 SDAM|Aerodromo de Amarais|Campinas, São Paulo
 SDCO|Sorocaba Airport|Sorocaba, São Paulo
@@ -7184,6 +7194,7 @@ UIBB|Bratsk Airport|Bratsk, Russia
 UIII|Irkutsk International Airport|Irkutsk, Russia
 UIUU|Mukhino Airport|Ulan-Ude, Russia
 ULAA|Talagi Airport|Arkhangelsk, Russia
+ULAL|Leshukonskoye Airport|Arkhangelsk, Russia
 ULAM|Naryan-Mar Airport|Naryan-Mar, Russia
 ULDD|Amderma Airport|Amderma, Russia
 ULKK|Kotlas Airport|Kotlas, Russia
@@ -7773,7 +7784,7 @@ WABD|Moanamani Airport|Moanamani
 WABF|Jembruwo Airport|Noemfoor
 WABG|Wagethe Airport|Wagethe
 WABI|Nabire Airport|Nabire
-WABL|Ilaga Airport|Ilaga
+WABL|Ilaga Airport|Ilaga (Papua)
 WABP|Timika Airport|Tembagapura
 WABT|Enarotali Airport|Enarotali
 WADD|Ngurah Rai International Airport|Denpasar, Bali (ICAO code also given as WRRR)
