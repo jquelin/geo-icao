@@ -29,8 +29,7 @@ our (@EXPORT_OK, %EXPORT_TAGS);
 }
 
 
-#--
-# private module vars.
+#-- private vars.
 
 # - vars defined statically
 
@@ -63,8 +62,9 @@ Readonly my %code2region => (
 # list of ICAO codes for the countries with their name.
 Readonly my %code2country => _get_code2country();
 
-
+# location of data file
 Readonly my $FDATA => file( dist_dir('Geo-ICAO'), 'icao.data' );
+
 
 # - vars computed after other vars
 
@@ -80,7 +80,7 @@ my %country2code;
 
 #-- public subs
 
-# subs handling regions.
+# - subs handling regions.
 
 =fregion my @codes = all_region_codes();
 
@@ -120,7 +120,7 @@ sub code2region {
 }
 
 
-# subs handling countries.
+# - subs handling countries.
 
 =fcountry my @codes = all_country_codes( [$code] );
 
@@ -134,6 +134,7 @@ sub all_country_codes {
     my ($code) = @_;
 
     return keys %code2country unless defined $code; # no filters
+    # sanity checks on params
     croak "'$code' is not a valid region code" unless defined code2region($code);
     return grep { /^$code/ } keys %code2country;    # filtering
 }
@@ -151,6 +152,7 @@ sub all_country_names {
     my ($code) = @_;
 
     return keys %country2code unless defined $code; # no filters
+    # sanity checks on params
     croak "'$code' is not a valid region code" unless defined code2region($code);
 
     # %country2code holds array refs. but even if a country has more
@@ -193,7 +195,7 @@ sub code2country {
 }
 
 
-# subs handling airports
+# - subs handling airports
 
 =fairport my @codes = all_airport_codes( $code );
 
@@ -208,6 +210,7 @@ region code).
 sub all_airport_codes {
     my ($code) = @_;
 
+    # sanity checks on params
     croak 'should provid a region or country code' unless defined $code;
     croak "'$code' is not a valid region or country code"
         unless exists $code2country{$code}
@@ -239,6 +242,7 @@ region code).
 sub all_airport_names {
     my ($code) = @_;
 
+    # sanity checks on params
     croak 'should provid a region or country code' unless defined $code;
     croak "'$code' is not a valid region or country code"
         unless exists $code2country{$code}
