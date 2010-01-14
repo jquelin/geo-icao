@@ -81,8 +81,37 @@ my %country2code;
 #--
 # subs handling regions.
 
+
+=fregion my @codes = all_region_codes();
+
+Return the list of all single letters defining an ICAO region. No
+parameter needed.
+
+=fregion my @regions = all_region_names();
+
+Return the list of all ICAO region names. No parameter needed.
+
+=cut
+
 sub all_region_codes { return keys %code2region; }
 sub all_region_names { return keys %region2code; }
+
+
+=fregion my $code = region2code( $region );
+
+Return the one-letter ICAO C<$code> corresponding to C<$region>. If the
+region does not exist, return undef.
+
+=fregion my $region = code2region( $code );
+
+Return the ICAO C<$region> corresponding to C<$code>. Note that C<$code>
+can be a one-letter code (region), two-letters code (country) or a four-
+letters code (airport): in either case, the region will be returned.
+
+Return undef if the associated region doesn't exist.
+
+=cut
+
 sub region2code { return $region2code{$_[0]}; }
 sub code2region {
     my ($code) = @_;
@@ -94,6 +123,15 @@ sub code2region {
 #--
 # subs handling countries.
 
+
+=fcountry my @codes = all_country_codes( [$code] );
+
+Return the list of all single- or double-letters defining an ICAO
+country. If a region C<$code> is given, return only the country codes of
+this region. (Note: dies if C<$code> isn't a valid ICAO region code).
+
+=cut
+
 sub all_country_codes {
     my ($code) = @_;
 
@@ -101,6 +139,15 @@ sub all_country_codes {
     croak "'$code' is not a valid region code" unless defined code2region($code);
     return grep { /^$code/ } keys %code2country;    # filtering
 }
+
+
+=fcountry my @countries = all_country_names( [$code] );
+
+Return the list of all ICAO country names. If a region C<$code> is
+given, return only the country names of this region. (Note: dies if
+C<$code> isn't a valid ICAO region code).
+
+=cut
 
 sub all_country_names {
     my ($code) = @_;
@@ -114,11 +161,31 @@ sub all_country_names {
     return grep { $country2code{$_}[0] =~ /^$code/ } keys %country2code;
 }
 
+
+=fcountry my @codes = country2code( $country );
+
+Return the list of ICAO codes corresponding to C<$country>. It's a list
+since some countries have more than one code. Note that the codes can be
+single-letters (USA, etc.)
+
+=cut
+
 sub country2code {
     my ($country) = @_;
     my $codes = $country2code{$country};
     return defined $codes ? @$codes : undef;
 }
+
+
+=fcountry my $country = code2country( $code );
+
+Return the ICAO C<$country> corresponding to C<$code>. Note that
+C<$code> can be a classic country code, or a four-letters code
+(airport): in either case, the region will be returned.
+
+Return undef if the associated region doesn't exist.
+
+=cut
 
 sub code2country {
     my ($code) = @_;
@@ -130,6 +197,17 @@ sub code2country {
 
 #--
 # subs handling airports
+
+
+=fairport my @codes = all_airport_codes( $code );
+
+Return the list of all ICAO airport codes in the C<$code> country
+(C<$code> can also be a region code). Note that compared to the
+region or country equivalent, this function B<requires> an argument.
+It will die otherwise (or if C<$code> isn't a valid ICAO country or
+region code).
+
+=cut
 
 sub all_airport_codes {
     my ($code) = @_;
@@ -151,6 +229,17 @@ sub all_airport_codes {
     return @codes;
 }
 
+
+=fairport my @codes = all_airport_names( $code );
+
+Return the list of all ICAO airport names in the C<$code> country
+(C<$code> can also be a region code). Note that compared to the
+region or country equivalent, this function B<requires> an argument.
+It will die otherwise (or if C<$code> isn't a valid ICAO country or
+region code).
+
+=cut
+
 sub all_airport_names {
     my ($code) = @_;
 
@@ -171,6 +260,14 @@ sub all_airport_names {
     return @codes;
 }
 
+
+=fairport my $code = airport2code( $airport );
+
+Return the C<$code> of the C<$airport>, undef i no airport matched. Note
+that the string comparison is done on a case-insensitive basis.
+
+=cut
+
 sub airport2code {
     my ($name) = @_;
 
@@ -185,6 +282,14 @@ sub airport2code {
     close $fh;
     return;          # no airport found
 }
+
+
+=fairport my $airport = code2airport( $code );
+
+Return the C<$airport> name corresponding to C<$code>. In list context,
+return both the airport name and its location (if known).
+
+=cut
 
 sub code2airport {
     my ($code) = @_;
@@ -245,18 +350,14 @@ __END__
     my ($airport, $location) = code2airport('LFLY'); # list context
 
 
-
-=head1 EXPORT
+=head1 DESCRIPTION
 
 Nothing is exported by default. But all the functions described below
 are exportable: it's up to you to decide what you want to import.
 
 Note that the keyword C<:all> will import everything, and each category
-of function provides its own keyword.
+of function provides its own keyword. See below.
 
-
-
-=head1 FUNCTIONS
 
 =head2 Regions
 
@@ -265,38 +366,6 @@ region is quite loosely defined as per the ICAO. This set of functions
 allow retrieval and digging of the regions.
 
 Note: you can import all those functions with the C<:region> keyword.
-
-
-=over 4
-
-=item . my @codes = all_region_codes()
-
-Return the list of all single letters defining an ICAO region. No
-parameter needed.
-
-
-=item . my @regions = all_region_names()
-
-Return the list of all ICAO region names. No parameter needed.
-
-
-=item . my $code = region2code( $region )
-
-Return the one-letter ICAO C<$code> corresponding to C<$region>. If the
-region does not exist, return undef.
-
-
-=item . my $region = code2region( $code )
-
-Return the ICAO C<$region> corresponding to C<$code>. Note that C<$code>
-can be a one-letter code (region), two-letters code (country) or a
-four-letters code (airport): in either case, the region will be
-returned.
-
-Return undef if the associated region doesn't exist.
-
-=back
-
 
 
 =head2 Countries
@@ -312,81 +381,12 @@ countries.
 Note: you can import all those functions with the C<:country> keyword.
 
 
-=over 4
-
-=item . my @codes = all_country_codes( [$code] )
-
-Return the list of all single- or double-letters defining an ICAO
-country. If a region C<$code> is given, return only the country codes of
-this region. (Note: dies if C<$code> isn't a valid ICAO region code).
-
-
-=item . my @countries = all_country_names( [$code] )
-
-Return the list of all ICAO country names. If a region C<$code> is
-given, return only the country names of this region. (Note: dies if
-C<$code> isn't a valid ICAO region code).
-
-
-=item . my @codes = country2code( $country )
-
-Return the list of ICAO codes corresponding to C<$country>. It's a list
-since some countries have more than one code. Note that the codes can be
-single-letters (USA, etc.)
-
-
-=item . my $country = code2country( $code )
-
-Return the ICAO C<$country> corresponding to C<$code>. Note that
-C<$code> can be a classic country code, or a four-letters code
-(airport): in either case, the region will be returned.
-
-Return undef if the associated region doesn't exist.
-
-=back
-
-
-
 =head2 Airports
 
 This set of functions allow retrieval and digging of the airports, which
 are defined on 4 letters.
 
 Note: you can import all those functions with the C<:airport> keyword.
-
-
-=over 4
-
-=item . my @codes = all_airport_codes( $code )
-
-Return the list of all ICAO airport codes in the C<$code> country
-(C<$code> can also be a region code). Note that compared to the region
-or country equivalent, this function B<requires> an argument. It will
-die otherwise (or if C<$code> isn't a valid ICAO country or region
-code).
-
-
-=item . my @codes = all_airport_names( $code )
-
-Return the list of all ICAO airport names in the C<$code> country
-(C<$code> can also be a region code). Note that compared to the region
-or country equivalent, this function B<requires> an argument. It will
-die otherwise (or if C<$code> isn't a valid ICAO country or region
-code).
-
-
-=item . my $code = airport2code( $airport )
-
-Return the C<$code> of the C<$airport>, undef i no airport matched. Note
-that the string comparison is done on a case-insensitive basis.
-
-
-=item . my $airport = code2airport( $code )
-
-Return the C<$airport> name corresponding to C<$code>. In list context,
-return both the airport name and its location (if known).
-
-=back
 
 
 
