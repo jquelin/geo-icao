@@ -6,7 +6,7 @@ package Geo::ICAO;
 
 use Carp;
 use File::ShareDir qw{ dist_dir };
-use List::Util qw[ first ];
+use List::Util     qw{ first    };
 use Path::Class;
 use Readonly;
 
